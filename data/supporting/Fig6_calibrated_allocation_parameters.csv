@@ -1,0 +1,2 @@
+lambda_m,soft_support_coefficient,other_support_coefficient,gamma,local_built_density_weight,allocation_unit,support_cap,selection_basis,method_tier
+300,0.7,1.0,1.0,0.5,country/location total to fixed 150-m edge neighbourhoods,0.7*A_SOFT_M2 + A_OTHER_M2,observed 1-km positive-transition prevalence plus interpretability parameter screen,country_aggregated_150m_exposure_screen

@@ -1,0 +1,8 @@
+checkpoint	role	input_dimension	predictor_indices_zero_based	selection_target	sha256
+0_new_model_parameters.pth	class_1_specialist	12	0,1,2,3,4,5,6,7,8,14,15,16	class_1_precision	CA478DFDF834578B47C463CEA255DA6D6CFBEFCBFA96C24B75BF53A7945F2A0E
+1_new_model_parameters.pth	class_2_specialist	9	0,1,2,3,4,5,6,11,16	class_2_precision	ECBAE2DC54BCB17FB825A1996ACBD0EE41F12A1E60EAC2D9CEC44C4D936021D9
+2_new_model_parameters.pth	class_3_specialist	10	0,1,2,3,4,5,6,7,8,16	class_3_precision	6A08404DC01CA732D0F22287F4EF49D06FA8476D288E9A722150AEEB4D7D2CE9
+3_new_model_parameters.pth	class_4_specialist	9	0,1,2,3,4,5,6,12,13	class_4_precision	A5298279111134D3D5B8B806749D49712DA48CF687005645F5E1E07315AC92B2
+4_new_model_parameters.pth	class_5_specialist	9	0,1,2,3,4,5,6,9,11	class_5_precision	FBCA464B5AA8B500769CF5A6758A1AB3FC30BCCBC4315D98706EDF5B2183E2B3
+5_model_parameters.pth	class_6_specialist	17	0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16	class_6_precision	90C1D329A7AFE72BBF66962C7C0D9D31D56DB1E63EA47714C7703B18E6B9D16F
+6_model_parameters.pth	all_class_fallback	17	0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16	overall_accuracy	393565848A9ABF6C70C06175054D6C8CEA752ADA78E861BC7EC3DD4A5B4143C5

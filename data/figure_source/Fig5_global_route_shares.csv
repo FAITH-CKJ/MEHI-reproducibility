@@ -1,0 +1,7 @@
+route,weight_m2_sum,grid_count,share_of_hardening_weight_percent,route_label,route_order,panel,units,weighting,source_table,filters
+built_up_replacement_route,11983053.50480418,2961,4.330189248598806,Built-up replacement,0,global_routes,percent,hardening weight,data/supporting/Fig5_grid_route_classification.csv.gz; tables/route_analysis_summary.csv,global hardening grids
+tidal_flat_loss_route,7321038.360650726,1216,2.645526166194587,Tidal-flat loss,1,global_routes,percent,hardening weight,data/supporting/Fig5_grid_route_classification.csv.gz; tables/route_analysis_summary.csv,global hardening grids
+water_edge_narrowing_route,15080337.605943343,2455,5.449422030896893,Water-edge narrowing,2,global_routes,percent,hardening weight,data/supporting/Fig5_grid_route_classification.csv.gz; tables/route_analysis_summary.csv,global hardening grids
+vegetation_buffer_loss_route,51617096.485103644,6729,18.652323980200368,Vegetation-buffer loss,3,global_routes,percent,hardening weight,data/supporting/Fig5_grid_route_classification.csv.gz; tables/route_analysis_summary.csv,global hardening grids
+proximity_only_route,149868582.62026167,17183,54.156423895196816,Proximity-only,4,global_routes,percent,hardening weight,data/supporting/Fig5_grid_route_classification.csv.gz; tables/route_analysis_summary.csv,global hardening grids
+mixed_route,40862681.07398306,5075,14.766114678912542,Mixed,5,global_routes,percent,hardening weight,data/supporting/Fig5_grid_route_classification.csv.gz; tables/route_analysis_summary.csv,global hardening grids

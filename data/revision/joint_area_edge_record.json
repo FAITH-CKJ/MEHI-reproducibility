@@ -1,0 +1,20 @@
+{
+  "primary_area_rule": "A_M_2023_m2 >= A_M_2000_m2",
+  "edge_rule": "pMEHI > 0.005",
+  "weight": "min(A_M_2000_m2,A_M_2023_m2)",
+  "global": {
+    "location_code": "GLOBAL",
+    "all_n": 79509,
+    "area_nondecreasing_n": 47256,
+    "area_nondecreasing_hardening_n": 17007,
+    "joint_percent_all_cells": 21.390031317209374,
+    "hardening_percent_within_nondecreasing_cells": 35.98908075165058,
+    "joint_percent_all_weight": 19.644631098711027,
+    "hardening_percent_within_nondecreasing_weight": 32.95078954537085
+  },
+  "area_tolerance_1m2": {
+    "area_nondecreasing_n": 49190,
+    "joint_hardening_n": 17666
+  },
+  "interpretation": "Common spatial neighbourhoods; equal-cell and minimum-endpoint-area denominators remain distinct. Area gain does not identify restoration or continuous survival of the same pixels."
+}

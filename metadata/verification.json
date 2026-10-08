@@ -1,0 +1,448 @@
+{
+  "status": "passed",
+  "version": "v1.0.0",
+  "method": "Independent restoration followed by execution of the included numerical workflows",
+  "restored_tables": [
+    {
+      "path": "data/revision/classification_sensitivity_inputs_150m.csv.gz",
+      "rows": 474003,
+      "columns": 18,
+      "status": "passed"
+    },
+    {
+      "path": "data/scenario/ssp_aligned_inputs.csv.gz",
+      "rows": 135280,
+      "columns": 8,
+      "status": "passed"
+    },
+    {
+      "path": "data/figure_source/Fig3_matched_neighbourhoods.csv.gz",
+      "rows": 79509,
+      "columns": 5,
+      "status": "passed"
+    },
+    {
+      "path": "data/samples/training_samples.csv",
+      "rows": 42795,
+      "columns": 4,
+      "status": "passed"
+    },
+    {
+      "path": "data/scenario/edge_grid_2000.csv.gz",
+      "rows": 115462,
+      "columns": 15,
+      "status": "passed"
+    },
+    {
+      "path": "data/scenario/edge_grid_2010.csv.gz",
+      "rows": 122334,
+      "columns": 15,
+      "status": "passed"
+    },
+    {
+      "path": "data/scenario/edge_grid_2020.csv.gz",
+      "rows": 118661,
+      "columns": 15,
+      "status": "passed"
+    },
+    {
+      "path": "data/scenario/edge_grid_2023.csv.gz",
+      "rows": 117546,
+      "columns": 15,
+      "status": "passed"
+    },
+    {
+      "path": "data/figure_source/Fig2_edge_state_maps_2000_2023.csv.gz",
+      "rows": 233008,
+      "columns": 10,
+      "status": "passed"
+    },
+    {
+      "path": "data/figure_source/Fig6_maps_SSP2_SSP5_2100.csv.gz",
+      "rows": 117546,
+      "columns": 12,
+      "status": "passed"
+    },
+    {
+      "path": "data/figure_source/Fig6_2023_external_area_weights.csv.gz",
+      "rows": 117546,
+      "columns": 4,
+      "status": "passed"
+    },
+    {
+      "path": "data/revision/canonical_matched_support.csv.gz",
+      "rows": 79509,
+      "columns": 6,
+      "status": "passed"
+    },
+    {
+      "path": "data/supporting/Fig5_grid_route_classification.csv.gz",
+      "rows": 79505,
+      "columns": 25,
+      "status": "passed"
+    }
+  ],
+  "lossless_round_trip": "Every decoded numeric bit and text value matches the stored column checksum; source tables were also compared independently",
+  "sample_integrity": {
+    "status": "passed",
+    "scope": "Public sample reference fields and train/validation membership",
+    "valid_observation_years": [
+      2000,
+      2010,
+      2020,
+      2023
+    ],
+    "tables": {
+      "train": {
+        "rows": 42795,
+        "columns": 4,
+        "year_counts": {
+          "2000": 9761,
+          "2010": 8524,
+          "2020": 11404,
+          "2023": 13106
+        },
+        "class_counts": {
+          "1": 9418,
+          "2": 3485,
+          "3": 12106,
+          "4": 7816,
+          "5": 7174,
+          "6": 2796
+        },
+        "invalid_years": 0,
+        "invalid_classes": 0,
+        "invalid_coordinates": 0,
+        "missing_reference_values": 0,
+        "duplicate_coordinate_year_additional_records": 771,
+        "conflicting_duplicate_labels": 0
+      },
+      "test": {
+        "rows": 10657,
+        "columns": 4,
+        "year_counts": {
+          "2000": 2432,
+          "2010": 2119,
+          "2020": 2844,
+          "2023": 3262
+        },
+        "class_counts": {
+          "1": 2352,
+          "2": 860,
+          "3": 3045,
+          "4": 1937,
+          "5": 1781,
+          "6": 682
+        },
+        "invalid_years": 0,
+        "invalid_classes": 0,
+        "invalid_coordinates": 0,
+        "missing_reference_values": 0,
+        "duplicate_coordinate_year_additional_records": 192,
+        "conflicting_duplicate_labels": 0
+      }
+    },
+    "shared_training_validation_coordinate_year_pairs": 0,
+    "duplicate_record_handling": "Sample reference fields preserve source record membership. Final-map accuracy counts each covered coordinate-year once; the validation assignment table records each observation and its evaluation status."
+  },
+  "result_table_semantics": {
+    "status": "passed",
+    "scope": "Actual distributed numerical result inputs and reference metadata",
+    "checks": [
+      {
+        "table": "annual_neighbourhoods",
+        "rows": 474003,
+        "years": [
+          2000,
+          2010,
+          2020,
+          2023
+        ],
+        "checks": "Unique country-grid-year keys; finite measurements; nonnegative m2 areas; 0\u20131000 m distances; bounded components and their mean; class-area identities",
+        "maximum_overlay_area_excess_m2": 0.007500126957893372,
+        "area_note": "Polygon overlay measurements retain source precision; maximum cell-area excess is below 0.01 m2."
+      },
+      {
+        "table": "scenario_inputs",
+        "rows": 135280,
+        "checks": "Unique scenario-year-cell keys; positive sampled m2; finite urban fractions between 0 and 1; valid scenario and year domain"
+      },
+      {
+        "table": "matched_support",
+        "rows": 79509,
+        "checks": "Positive persistent endpoint support; exact minimum-area weights; exact half-change from annual MEHI"
+      },
+      {
+        "table": "transition_routes",
+        "rows": 79505,
+        "checks": "Unique joins to matched support; pMEHI agrees within 1e-12 and area weights within 1e-10 m2 across independently exported tables; valid fraction and component-change domains; nonnegative transition areas"
+      },
+      {
+        "table": "map_validation_assignments",
+        "rows": 10657,
+        "missing_map_assignments": 654,
+        "checks": "Reference year/class domains; source row order; mapped class domain; missing map labels explicitly outside coverage"
+      },
+      {
+        "table": "public_sample_scope",
+        "rows": 42795,
+        "checks": "Only the four source-reference fields are distributed in the training register; validation reference fields are stored once with map assignments"
+      }
+    ]
+  },
+  "route_statistics": {
+    "status": "passed",
+    "route_neighbourhoods": 79505,
+    "positive_pmehi_neighbourhoods": 35619,
+    "pmehi_above_0p005_neighbourhoods": 32242,
+    "country_count": 19,
+    "country_association_spearman_rho": 0.6807017543859648,
+    "country_association_definition": "Minimum-endpoint-area weighted mean of neighbourhood replacement fractions",
+    "matrix_denominator": "All observed paired-transition area in pMEHI > 0.005 neighbourhoods",
+    "general_matched_neighbourhoods": 79509,
+    "complete_rule_reclassification": {
+      "0.2": {
+        "rows": 79505,
+        "changed_from_primary": 1078,
+        "counts_and_weights_agree": true
+      },
+      "0.3": {
+        "rows": 79505,
+        "changed_from_primary": 0,
+        "counts_and_weights_agree": true
+      },
+      "0.4": {
+        "rows": 79505,
+        "changed_from_primary": 768,
+        "counts_and_weights_agree": true
+      }
+    },
+    "checks": [
+      "Global route counts, weights and percentages",
+      "Country route support and weights",
+      "Country weighted means and Spearman association",
+      "Endpoint group support",
+      "Transition matrix denominator",
+      "Three threshold summaries and consistent primary threshold",
+      "Analysis-summary values"
+    ]
+  },
+  "map_validation": {
+    "status": "passed",
+    "records": 10657,
+    "unique_covered": 9811,
+    "pooled_agreement_percent": 88.2478850270105,
+    "kappa": 0.8518206480779181,
+    "annual": [
+      {
+        "year": 2000,
+        "n": 2277,
+        "agreement_percent": 84.49714536671058
+      },
+      {
+        "year": 2010,
+        "n": 2063,
+        "agreement_percent": 89.96606883179835
+      },
+      {
+        "year": 2020,
+        "n": 2555,
+        "agreement_percent": 88.21917808219177
+      },
+      {
+        "year": 2023,
+        "n": 2916,
+        "agreement_percent": 89.98628257887518
+      }
+    ],
+    "orientation": "rows=mapped, columns=reference",
+    "checks": [
+      "record and duplicate flow",
+      "point assignments reproduce each annual matrix",
+      "annual matrices sum to pooled matrix",
+      "producer/user accuracy use correct denominators"
+    ]
+  },
+  "metric_conventions": {
+    "status": "passed",
+    "rows": 474003,
+    "annual": [
+      {
+        "year": 2000,
+        "rows": 115462,
+        "zero_distance_records": 12445,
+        "small_mangrove_support_records": 261,
+        "max_absolute_difference": {
+          "P": 0.0,
+          "C": 0.0,
+          "B": 0.0,
+          "S": 0.0,
+          "MEHI": 0.0
+        }
+      },
+      {
+        "year": 2010,
+        "rows": 122334,
+        "zero_distance_records": 14656,
+        "small_mangrove_support_records": 268,
+        "max_absolute_difference": {
+          "P": 0.0,
+          "C": 0.0,
+          "B": 0.0,
+          "S": 0.0,
+          "MEHI": 0.0
+        }
+      },
+      {
+        "year": 2020,
+        "rows": 118661,
+        "zero_distance_records": 15348,
+        "small_mangrove_support_records": 262,
+        "max_absolute_difference": {
+          "P": 0.0,
+          "C": 0.0,
+          "B": 0.0,
+          "S": 0.0,
+          "MEHI": 0.0
+        }
+      },
+      {
+        "year": 2023,
+        "rows": 117546,
+        "zero_distance_records": 14971,
+        "small_mangrove_support_records": 258,
+        "max_absolute_difference": {
+          "P": 0.0,
+          "C": 0.0,
+          "B": 0.0,
+          "S": 0.0,
+          "MEHI": 0.0
+        }
+      }
+    ],
+    "checks": [
+      "Vector component helper agrees with stored four-date fields to floating-point tolerance",
+      "Zero Near distance is preserved as contact proximity",
+      "Negative or missing Near results take the distance cap",
+      "Mangrove support <=1 m2 gives C=-1; external support <=1 m2 gives B=S=0"
+    ]
+  },
+  "numerical_reproduction": {
+    "status": "passed",
+    "absolute_numeric_tolerance": 1e-12,
+    "comparisons": [
+      {
+        "comparison": "Sixteen global future scenario values",
+        "rows": 16,
+        "columns": [
+          "Delta_sMEHI",
+          "hard_edge_fraction_future",
+          "soft_to_mixed_or_hard_share",
+          "unmet_allocation_percent"
+        ],
+        "max_absolute_difference": 3.774758283725532e-15
+      },
+      {
+        "comparison": "All 57 country-location scenario summaries",
+        "rows": 57,
+        "columns": [
+          "n_grids",
+          "Delta_sMEHI",
+          "hard_edge_fraction_future",
+          "soft_to_mixed_or_hard_share"
+        ],
+        "max_absolute_difference": 1.609823385706477e-15
+      },
+      {
+        "comparison": "Seeded summary-sensitivity percentiles",
+        "rows": 12,
+        "columns": [
+          "realization_count",
+          "global_mean_Delta_sMEHI",
+          "p05",
+          "p50",
+          "p95"
+        ],
+        "max_absolute_difference": 2.9976021664879227e-15
+      },
+      {
+        "comparison": "Historical reconstruction with explicit three-category direction",
+        "rows": 3,
+        "columns": [
+          "grid_level_MEHI_MAE",
+          "country_level_spearman_rho_Delta_MEHI",
+          "hard_edge_fraction_error",
+          "direction_agreement_3class",
+          "neutral_band_Delta_MEHI",
+          "top_five_hardening_country_overlap",
+          "number_of_grids"
+        ],
+        "max_absolute_difference": 0.0
+      },
+      {
+        "comparison": "Reproduced baseline_annual_reproduction.csv",
+        "rows": 4,
+        "columns": 3
+      },
+      {
+        "comparison": "Reproduced joint_area_edge_crosstab.csv",
+        "rows": 120,
+        "columns": 9
+      },
+      {
+        "comparison": "Reproduced joint_area_edge_summary.csv",
+        "rows": 20,
+        "columns": 8
+      },
+      {
+        "comparison": "Reproduced R2_2_annual_error_sensitivity.csv",
+        "rows": 32,
+        "columns": 8
+      },
+      {
+        "comparison": "Reproduced R2_2_country_error_sensitivity.csv",
+        "rows": 76,
+        "columns": 5
+      },
+      {
+        "comparison": "Reproduced R2_2_country_pathway_sensitivity.csv",
+        "rows": 4,
+        "columns": 8
+      },
+      {
+        "comparison": "Reproduced R2_2_endpoint_error_sensitivity.csv",
+        "rows": 4,
+        "columns": 14
+      },
+      {
+        "comparison": "Reproduced R2_2_error_transition_matrices.csv",
+        "rows": 432,
+        "columns": 5
+      },
+      {
+        "comparison": "Reproduced R2_2_fixed_support_comparison.csv",
+        "rows": 8,
+        "columns": 5
+      },
+      {
+        "comparison": "Reproduced R2_2_hard_class_margin_bounds.csv",
+        "rows": 40,
+        "columns": 5
+      },
+      {
+        "comparison": "Reproduced R2_2_temporal_changes.csv",
+        "rows": 8,
+        "columns": 5
+      },
+      {
+        "comparison": "Reproduced R2_7_component_dependence.csv",
+        "rows": 4,
+        "columns": 5
+      }
+    ],
+    "scope": "Current classification/composition and joint analyses, all global scenario values, all published country rankings, seed-based summary sensitivity and historical reconstruction."
+  },
+  "figure_reproduction": "Current data figures 1, 2 and 5 rendered successfully from the restored tables",
+  "checkpoint_check": "Seven decompressed saved-model files reproduce the original file SHA-256; ensemble self-test passed",
+  "spatial_construction": "The clipped-line distance and component support conventions were checked against the original production implementation and all four retained annual tables. The full spatial rebuild requires the separately inventoried mosaics and ArcGIS Pro."
+}

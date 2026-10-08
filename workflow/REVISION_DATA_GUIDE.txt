@@ -1,0 +1,66 @@
+Current data roles and interpretation
+
+data/figure_source: numerical values for current Figs. 1–5 plus the
+current Fig. 5 display bins and explicit 2023 external-area weights.
+data/supporting: classification matrices, sampling, routes, thresholds, scales,
+historical reconstruction and scenario-summary sensitivity records.
+data/revision: four-year component/class-area input (474,003 rows), the canonical
+79,509 matched cells, and the new classification/composition sensitivity tables.
+data/scenario: sampled 1-km scenario inputs and four annual derived edge tables.
+data/samples: training register for 42,795 records, retaining sample identifiers,
+six-class reference labels, observation years and coordinates. The reference
+fields for all 10,657 validation records are stored with their final-map
+assignments in data/validation_current. These fields reproduce sample
+accounting and membership. Validation also served model selection. The
+classifier source code defines the 17-predictor schema for applications
+supplied with their own predictor inputs.
+data/validation_current: final-map assignments, sample flow and full pooled/annual
+confusion matrices (9,811 unique covered coordinate-year points; map agreement
+88.247885%, kappa 0.8518206481). Missing map coverage stays separate from errors.
+Restoration creates identical validation compatibility copies in data/supporting.
+data/revision/joint_area_edge*: counts and weights crossing observed mangrove
+area direction and edge-change category, globally and by country/location.
+
+Areas are in square metres and distances in metres. MEHI components and index
+are dimensionless, bounded by -1 and 1. pMEHI = (MEHI_2023 - MEHI_2000)/2.
+Country/location and grid IDs jointly identify cells. The source geometry uses
+World Mollweide equal-area coordinates, ESRI:54009; source map longitude and
+latitude are geographic degrees. Annual cells can enter or leave the observed
+domain. The matched endpoint table requires mangrove area at both endpoints.
+Four additional annual-grid matches have zero 2000 mangrove support and do not
+enter the 79,509-cell persistent product.
+
+Annual shares use annual mangrove area; Fig. 2 counts every cell equally.
+Country endpoint changes and route shares use minimum endpoint mangrove area.
+Fig. 5 uses max(observed 2023 external area, 1 m2), including the documented
+numerical support floor. Country means and display bins use that same weight.
+Composition error treatments leave measured geometry, contact, proximity,
+sample membership and weights fixed. Their outputs are conditional sensitivity
+results, not design-unbiased corrections or empirical confidence intervals.
+
+Soft cover groups tidal flat, water and non-mangrove vegetation for a structural
+measurement. The six-class fields retain their separate ecological identities.
+Reduced distance records relative proximity; either boundary can move.
+The 4.33% replacement route is soft-cover-to-built replacement among pMEHI>0
+cells, weighted by minimum endpoint mangrove area. It is not the proportion of
+mangrove loss or the share of the positive index increment. Fig. 4a/c use the
+0.005 band, while Fig. 4b includes all positive changes. Historical field names
+are retained for traceability and do not confer a causal interpretation.
+
+Future scenarios allocate country-aggregated 1-km urban demand to fixed 2023
+150-m cells. The output grid does not establish 150-m predictive resolution.
+The file Fig6_uncertainty_summary.csv records summary-level rescaling percentiles,
+not a spatial Monte Carlo rerun or predictive confidence intervals.
+
+Zeros are retained measurements, distinct from missing entries. There is no
+silent conversion of missing observations to zero. Derived analysis checks
+assert finite values and support requirements before calculating summaries.
+
+Figure-source filenames retain stable original IDs; see FIGURE_NUMBERING.txt.
+
+Route statistics use 79,505 neighbourhoods with valid endpoint classification
+support and retained paired-transition observations. The positive-pMEHI
+route denominator is 35,619; the pMEHI > 0.005 denominator is 32,242.
+Recorded intersections must exceed the original 1 m2 fragment threshold.
+The general MEHI, endpoint-threshold and component-weight analyses retain
+all 79,509 matched neighbourhoods through the canonical and annual tables.

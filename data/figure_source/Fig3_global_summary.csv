@@ -1,0 +1,2 @@
+n_grid,n_country_location_codes,total_weight_m2,weighted_mean_pMEHI,weighted_median_pMEHI,min_pMEHI,max_pMEHI,p01,p02,p98,p99,softening_share_percent,softening_n_grid,near_neutral_share_percent,near_neutral_n_grid,hardening_share_percent,hardening_n_grid
+79509,19,1788952500.0,-0.0002084834117158,0.0,-0.9747544963231752,0.9224883375437192,-0.3890790111620366,-0.3035873284270075,0.3528015819165831,0.4483655619574347,44.50565344803733,35386,14.94044699342213,11879,40.55389955854054,32244

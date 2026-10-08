@@ -1,0 +1,4 @@
+absolute_MEHI_cutpoint,soft_2000_percent,soft_2023_percent,mixed_2000_percent,mixed_2023_percent,hard_2000_percent,hard_2023_percent,hard_2023_to_2000_ratio
+0.25,94.0,91.9,5.1,6.2,0.97,1.9,1.97
+0.33,92.0,90.1,7.3,8.4,0.68,1.5,2.21
+0.4,89.8,88.1,9.7,10.7,0.52,1.2,2.32

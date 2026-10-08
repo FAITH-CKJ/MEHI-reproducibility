@@ -1,0 +1,5 @@
+scenario,countries_locations,same_sign_as_observed,country_rank_spearman,persistence_gain_with_positive_pMEHI,persistence_gain_with_pMEHI_above_0p005,positive_persistent_codes,near_neutral_persistent_codes
+observed,19,19,1.0,6,4,"COL,CHN,NZL,IDN,THA,NGA","USA,COL,CHN"
+pooled_composition,19,19,0.9982456140350877,6,4,"COL,CHN,NZL,IDN,THA,NGA","USA,COL,CHN"
+year_specific_composition,19,18,0.9964912280701754,5,3,"COL,NZL,IDN,THA,NGA","COL,CHN,NZL"
+three_block,19,18,0.9964912280701754,5,4,"CHN,NZL,IDN,THA,NGA","COL,CHN"

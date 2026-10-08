@@ -1,0 +1,6 @@
+{
+  "raw_annual_grid_join_rows": 79513,
+  "canonical_persistent_rows": 79509,
+  "excluded_from_endpoint": 4,
+  "reason": "Use the previously adopted persistent-edge GDB support. Four annual grid matches have zero mangrove support in 2000 and do not enter the persistent-edge product."
+}

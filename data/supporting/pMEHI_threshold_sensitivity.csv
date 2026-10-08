@@ -1,0 +1,4 @@
+absolute_pMEHI_threshold,cell_softening_percent,cell_neutral_percent,cell_hardening_percent,edge_weighted_softening_percent,edge_weighted_neutral_percent,edge_weighted_hardening_percent
+0.0025,46.49,11.17,42.33,47.34,13.19,39.47
+0.005,44.51,14.94,40.55,45.23,17.21,37.56
+0.01,40.74,22.08,37.18,41.14,24.79,34.07

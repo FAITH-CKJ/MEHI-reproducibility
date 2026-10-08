@@ -1,0 +1,17 @@
+result_id,group,metric,value,unit,statistic,source_table,notes
+hardening_delta_built_share,hardening,delta_built_share,0.0,share,area-weighted median,data/supporting/Fig5_grid_route_classification.csv.gz,Area-weighted summary for endpoint-matched 150-m edge neighbourhoods.
+hardening_negative_delta_soft_share,hardening,negative_delta_soft_share,0.0128956882969552,share,area-weighted median,data/supporting/Fig5_grid_route_classification.csv.gz,Area-weighted summary for endpoint-matched 150-m edge neighbourhoods.
+hardening_soft_to_built_share_of_changed,hardening,soft_to_built_share_of_changed,0.0,share,area-weighted median,data/supporting/Fig5_grid_route_classification.csv.gz,Area-weighted summary for endpoint-matched 150-m edge neighbourhoods.
+near_neutral_delta_built_share,near_neutral,delta_built_share,0.0,share,area-weighted median,data/supporting/Fig5_grid_route_classification.csv.gz,Area-weighted summary for endpoint-matched 150-m edge neighbourhoods.
+near_neutral_negative_delta_soft_share,near_neutral,negative_delta_soft_share,4.037049694538553e-07,share,area-weighted median,data/supporting/Fig5_grid_route_classification.csv.gz,Area-weighted summary for endpoint-matched 150-m edge neighbourhoods.
+near_neutral_soft_to_built_share_of_changed,near_neutral,soft_to_built_share_of_changed,0.0,share,area-weighted median,data/supporting/Fig5_grid_route_classification.csv.gz,Area-weighted summary for endpoint-matched 150-m edge neighbourhoods.
+softening_delta_built_share,softening,delta_built_share,0.0,share,area-weighted median,data/supporting/Fig5_grid_route_classification.csv.gz,Area-weighted summary for endpoint-matched 150-m edge neighbourhoods.
+softening_negative_delta_soft_share,softening,negative_delta_soft_share,0.0290269403847537,share,area-weighted median,data/supporting/Fig5_grid_route_classification.csv.gz,Area-weighted summary for endpoint-matched 150-m edge neighbourhoods.
+softening_soft_to_built_share_of_changed,softening,soft_to_built_share_of_changed,0.0,share,area-weighted median,data/supporting/Fig5_grid_route_classification.csv.gz,Area-weighted summary for endpoint-matched 150-m edge neighbourhoods.
+global_route_share_proximity_only_route,hardening,global_route_share_percent,54.156423895196816,percent,share of hardening weight,data/supporting/Fig5_grid_route_classification.csv.gz,proximity_only_route
+global_route_share_vegetation_buffer_loss_route,hardening,global_route_share_percent,18.652323980200368,percent,share of hardening weight,data/supporting/Fig5_grid_route_classification.csv.gz,vegetation_buffer_loss_route
+global_route_share_mixed_route,hardening,global_route_share_percent,14.766114678912542,percent,share of hardening weight,data/supporting/Fig5_grid_route_classification.csv.gz,mixed_route
+global_route_share_water_edge_narrowing_route,hardening,global_route_share_percent,5.449422030896893,percent,share of hardening weight,data/supporting/Fig5_grid_route_classification.csv.gz,water_edge_narrowing_route
+global_route_share_built_up_replacement_route,hardening,global_route_share_percent,4.330189248598806,percent,share of hardening weight,data/supporting/Fig5_grid_route_classification.csv.gz,built_up_replacement_route
+global_route_share_tidal_flat_loss_route,hardening,global_route_share_percent,2.645526166194587,percent,share of hardening weight,data/supporting/Fig5_grid_route_classification.csv.gz,tidal_flat_loss_route
+valid_grid_count,all,n_grid,79505,grid,count,data/supporting/Fig5_grid_route_classification.csv.gz,Paired-transition eligible 150 m neighbourhoods

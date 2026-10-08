@@ -1,0 +1,221 @@
+{
+  "status": "adopted_current_record",
+  "training_n": 42795,
+  "validation_n": 10657,
+  "used_total_n": 53452,
+  "map_evaluation_n": 9811,
+  "outside_map_n": 654,
+  "duplicate_validation_records_n": 192,
+  "year_counts": [
+    {
+      "year": 2000,
+      "map_evaluation_n": 2277,
+      "all_validation_n": 2432,
+      "outside_map_n": 101,
+      "duplicate_records": 54
+    },
+    {
+      "year": 2010,
+      "map_evaluation_n": 2063,
+      "all_validation_n": 2119,
+      "outside_map_n": 18,
+      "duplicate_records": 38
+    },
+    {
+      "year": 2020,
+      "map_evaluation_n": 2555,
+      "all_validation_n": 2844,
+      "outside_map_n": 226,
+      "duplicate_records": 63
+    },
+    {
+      "year": 2023,
+      "map_evaluation_n": 2916,
+      "all_validation_n": 3262,
+      "outside_map_n": 309,
+      "duplicate_records": 37
+    }
+  ],
+  "map_accuracy": {
+    "year": "pooled",
+    "all_points": 10657,
+    "valid_points": 9811,
+    "outside_map": 654,
+    "duplicate_records": 192,
+    "ambiguous_boundary": 0,
+    "overall_accuracy_percent": 88.2478850270105,
+    "kappa": 0.8518206480779181,
+    "user_accuracy_percent": [
+      94.61883408071749,
+      88.23529411764706,
+      84.68852459016394,
+      88.78256246677299,
+      89.60573476702508,
+      78.84267631103074
+    ],
+    "producer_accuracy_percent": [
+      86.67275216795984,
+      71.16104868913858,
+      91.98717948717949,
+      93.82022471910112,
+      90.68923821039903,
+      75.5632582322357
+    ]
+  },
+  "annual_map_accuracy": [
+    {
+      "year": 2000,
+      "all_points": 2432,
+      "valid_points": 2277,
+      "outside_map": 101,
+      "duplicate_records": 54,
+      "ambiguous_boundary": 0,
+      "overall_accuracy_percent": 84.49714536671058,
+      "kappa": 0.8049538713980342,
+      "user_accuracy_percent": [
+        95.14563106796116,
+        83.54430379746836,
+        80.72463768115942,
+        84.87712665406427,
+        87.43016759776536,
+        62.30769230769231
+      ],
+      "producer_accuracy_percent": [
+        81.4968814968815,
+        61.395348837209305,
+        88.69426751592357,
+        93.93305439330544,
+        85.28610354223433,
+        75.0
+      ]
+    },
+    {
+      "year": 2010,
+      "all_points": 2119,
+      "valid_points": 2063,
+      "outside_map": 18,
+      "duplicate_records": 38,
+      "ambiguous_boundary": 0,
+      "overall_accuracy_percent": 89.96606883179835,
+      "kappa": 0.8736205393369355,
+      "user_accuracy_percent": [
+        96.20253164556962,
+        90.0,
+        83.20610687022901,
+        94.22110552763819,
+        94.84240687679083,
+        78.57142857142857
+      ],
+      "producer_accuracy_percent": [
+        81.37044967880085,
+        80.76923076923077,
+        95.44658493870404,
+        95.66326530612245,
+        91.68975069252078,
+        85.34482758620689
+      ]
+    },
+    {
+      "year": 2020,
+      "all_points": 2844,
+      "valid_points": 2555,
+      "outside_map": 226,
+      "duplicate_records": 63,
+      "ambiguous_boundary": 0,
+      "overall_accuracy_percent": 88.21917808219179,
+      "kappa": 0.8505603198596573,
+      "user_accuracy_percent": [
+        94.2,
+        82.65895953757226,
+        87.25728155339806,
+        87.01298701298701,
+        88.6509635974304,
+        81.3953488372093
+      ],
+      "producer_accuracy_percent": [
+        87.70949720670392,
+        71.85929648241206,
+        91.59235668789809,
+        91.15646258503402,
+        92.20489977728285,
+        72.91666666666667
+      ]
+    },
+    {
+      "year": 2023,
+      "all_points": 3262,
+      "valid_points": 2916,
+      "outside_map": 309,
+      "duplicate_records": 37,
+      "ambiguous_boundary": 0,
+      "overall_accuracy_percent": 89.98628257887518,
+      "kappa": 0.8736337264049787,
+      "user_accuracy_percent": [
+        93.71428571428571,
+        96.57142857142857,
+        86.49262202043133,
+        90.2439024390244,
+        88.4,
+        89.88095238095238
+      ],
+      "producer_accuracy_percent": [
+        92.91784702549575,
+        73.16017316017316,
+        92.47572815533981,
+        94.66950959488273,
+        92.66247379454927,
+        72.2488038277512
+      ]
+    }
+  ],
+  "classifier_accuracy_diagnostic": {
+    "n": 10657,
+    "correct": 8955,
+    "overall_accuracy_percent": 84.029276531857,
+    "kappa": 0.7992104874164921,
+    "user_accuracy_percent": [
+      86.98003327787022,
+      76.42585551330798,
+      83.22454308093995,
+      87.97814207650273,
+      82.4476650563607,
+      77.09923664122137
+    ],
+    "producer_accuracy_percent": [
+      88.9030612244898,
+      70.11627906976744,
+      83.74384236453201,
+      91.4300464636035,
+      86.24368332397529,
+      59.2375366568915
+    ]
+  },
+  "sample_coordinate_year_overlap": 0,
+  "confusion_orientation": "rows=mapped class, columns=reference label",
+  "sampling": "Exact point-polygon intersection of validation coordinates and retained final maps. Outside-map points remain recorded as outside_map, never as correct, incorrect, zero or a nearest-neighbour match.",
+  "provenance": "The thesis documents the study sampling and manual-correction workflow. Current counts and accuracy values are recomputed from the retained CSVs and final mapped products, not copied from the historical thesis tables.",
+  "runtime": {
+    "python": "3.11.7",
+    "torch": "2.9.1+cu126",
+    "numpy": "1.26.4",
+    "pandas": "2.1.4",
+    "device": "cpu"
+  },
+  "validation_role": "Disjoint from training coordinates within each year. Retained validation was also used by checkpoint selection; it is not a third dataset reserved independently of model selection.",
+  "historical_input_sha256": {
+    "train.csv": "d8ed08ae827983b74390a31216dffdaf04f8572787e1aafa737f5946600de736",
+    "test.csv": "1f0c8cc429e205856901d5ca4afa7202e2a1a427bb42aca390540694fca3f52f",
+    "0_new_model_parameters.pth": "ca478dfdf834578b47c463cea255da6d6cfbefcbfa96c24b75bf53a7945f2a0e",
+    "1_new_model_parameters.pth": "ecbae2dc54bcb17fb825a1996acbd0ee41f12a1e60eac2d9cec44c4d936021d9",
+    "2_new_model_parameters.pth": "6a08404dc01ca732d0f22287f4ef49d06fa8476d288e9a722150aeeb4d7d2ce9",
+    "3_new_model_parameters.pth": "a5298279111134d3d5b8b806749d49712da48cf687005645f5e1e07315ac92b2",
+    "4_new_model_parameters.pth": "fbca464b5aa8b500769cf5a6758a1ab3fc30bccbc4315d98706edf5b2183e2b3",
+    "5_model_parameters.pth": "90c1d329a7afe72bbf66962c7c0d9d31d56db1e63ea47714c7703b18e6b9d16f",
+    "6_model_parameters.pth": "393565848a9abf6c70c06175054d6c8cea752ada78e861bc7ec3dd4a5b4143c5"
+  },
+  "public_sample_registers": {
+    "training": "data/samples/training_samples.csv",
+    "validation": "data/validation_current/map_validation_predictions.csv.gz",
+    "role": "Sample accounting, reference classes, observation years, coordinates and final-map assignments."
+  }
+}

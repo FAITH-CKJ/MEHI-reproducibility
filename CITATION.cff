@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and this versioned source-data and reproducibility deposit."
+title: "Urban hardening of mangrove edges extends beyond forest loss: source data and reproducibility"
+type: dataset
+authors:
+  - family-names: Cao
+    given-names: Kangjie
+  - family-names: Shen
+    given-names: Xiaoxue
+  - family-names: Luo
+    given-names: Xin
+  - family-names: Li
+    given-names: Wei
+  - family-names: Li
+    given-names: Ruili
+version: v1.0.0
+date-released: '2026-10-09'
+url: "https://github.com/FAITH-CKJ/MEHI-reproducibility/releases/tag/v1.0.0"
+repository-code: "https://github.com/FAITH-CKJ/MEHI-reproducibility"

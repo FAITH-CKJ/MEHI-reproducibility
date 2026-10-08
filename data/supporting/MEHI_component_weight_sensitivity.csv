@@ -1,0 +1,9 @@
+alternative,w_P,w_C,w_B,w_S,grid_spearman_rho,grid_direction_agreement_percent,direction_neutral_band_abs_pMEHI,country_spearman_rho,country_direction_agreement_n_of_19,country_pathway_agreement_n_of_19
+double_P,2.0,1.0,1.0,1.0,0.992,97.8,0.0025,0.995,18,18
+double_C,1.0,2.0,1.0,1.0,0.995,98.5,0.0025,0.998,19,19
+double_B,1.0,1.0,2.0,1.0,0.997,98.7,0.0025,0.991,19,19
+double_S,1.0,1.0,1.0,2.0,0.992,98.1,0.0025,0.995,19,19
+half_P,0.5,1.0,1.0,1.0,0.993,96.6,0.0025,0.984,19,19
+half_C,1.0,0.5,1.0,1.0,0.996,99.0,0.0025,0.998,19,19
+half_B,1.0,1.0,0.5,1.0,0.998,99.2,0.0025,0.996,19,19
+half_S,1.0,1.0,1.0,0.5,0.995,98.6,0.0025,0.996,19,19

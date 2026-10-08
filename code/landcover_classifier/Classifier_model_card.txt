@@ -1,0 +1,79 @@
+MEHI six-class coastal land-cover classifier model card
+Manuscript COMMSENV-26-4948-T
+
+Purpose and analytical role
+The classifier assigns mangrove, tidal flat, non-mangrove vegetation, water,
+built-up and other classes to the four-date coastal mosaics used by MEHI.
+These mapped classes support the geometric and cover-composition measurements
+of mangrove-edge structure. The supplied class-resolved fields retain the
+information needed to inspect the individual coastal settings and transitions.
+
+Implementation and retained models
+Seven PyTorch checkpoints accompany the reproducibility package. The active
+forward path has three linear layers, two 256-unit ReLU hidden layers and six
+outputs. Model-specific predictor subsets contain 9, 10, 12 or 17 variables.
+The full input includes six reflectance bands, surface temperature, distance to
+permanent water and nine spectral indices. Input order and class codes are
+explicit in the code and field dictionaries. The ensemble starts with the
+all-class network and applies the documented class-priority override rule.
+Legacy state entries preserve compatibility with the saved weight files.
+
+Training configuration and sample roles
+The retained training routine provides defaults of 199 epochs, seed 30, Adam
+learning rate 0.001, batch size 64, cross-entropy loss and tenfold learning-rate
+reductions at epochs 100, 150 and 180. The current input tables contain 42,795
+training and 10,657 validation records. Training and validation share zero
+coordinate-year pairs. The validation table serves checkpoint selection and
+the subsequent evaluation of the final mapped products. The sample counts,
+membership and evaluation flow are supplied with the data.
+
+Map production and final-map evaluation
+Reference classes were assigned by visual interpretation of Landsat composites
+and high-resolution imagery, supported by coastal products and distribution
+records. Post-classification inspection corrected visually unambiguous mapping
+errors, especially mangrove versus non-mangrove vegetation boundaries. The
+final-map evaluation samples these products at the validation coordinates.
+Each coordinate-year is counted once: 192 repeated records have concordant
+labels, and 654 records outside retained map coverage are listed separately.
+The 9,811 unique covered points yield 88.247885% overall map agreement and
+kappa 0.8518206481. Annual agreement is 84.50%, 89.97%, 88.22% and 89.99%.
+Confusion-matrix rows denote mapped classes and columns denote reference
+classes. Point assignments, sample flow and producer/user accuracies are in
+data/validation_current. These figures describe the final-map evaluation;
+saved-checkpoint inference is a separate executable step in the workflow.
+
+Task-specific reproducibility environment
+Python 3.11.7 and PyTorch 2.9.1 evaluate the retained checkpoints. Numerical
+analyses use NumPy 1.26.4, pandas 2.1.4 and SciPy 1.11.4. Final-map sampling
+uses GeoPandas 1.0.1, Shapely 2.0.6 and pyogrio 0.9.0. Matplotlib 3.8.0
+produces the revised figures. These versions identify the verified revision
+environment. Supplementary Note 2 connects each task to its inputs and outputs.
+
+Measured inference resources
+On an AMD Ryzen Threadripper PRO 5995WX 64-Cores processor with 127.84 GiB
+installed memory under Windows, five complete inference passes on the 10,657
+records used four CPU threads and batches of 1,024. The first pass took
+0.574 s; median 0.098 s; range 0.092–0.574 s. Data loading took
+0.295 s and checkpoint loading 0.173 s. Predictions were identical across passes.
+These are measured CPU inference costs using the saved weights; interpreter
+startup and imports are excluded. The resource JSON and executable measurement
+script record the task and all five times.
+
+Evaluation scope and reuse
+The evaluation describes the retained coastal mapping task across four dates.
+Checkpoint selection and final-map evaluation use the same validation table.
+The two fixed sample sets and their roles are documented above. The map
+confusion matrices support the pooled and year-specific composition sensitivity
+analyses in Supplementary Note 2. Those calculations quantify the effects on
+MEHI composition while holding mapped geometry, contact and proximity fixed.
+The public training register retains sample identifiers, reference labels,
+observation years and coordinates. The validation assignment table contains
+the corresponding reference fields and final-map classes. These fields
+support sample accounting, membership checks and final-map accuracy. The
+classifier code accepts separately supplied 17-predictor tables or rasters;
+its input schema and the seven retained weights document model application.
+Annual neighbourhood and matched-neighbourhood tables provide the complete
+numerical inputs for the reported MEHI and scenario analyses.
+The data, code and saved weights are publicly accessible in the versioned
+MEHI-reproducibility release v1.0.0:
+https://github.com/FAITH-CKJ/MEHI-reproducibility/releases/tag/v1.0.0 .

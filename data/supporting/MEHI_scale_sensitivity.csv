@@ -1,0 +1,76 @@
+record_type,panel,comparison,scale_m,reference_scale_m,year,metric,value,unit,weighting_type,country,GU_A3,notes
+annual_hard_edge_share,a,,120,,2000,hard_urban_edge_area_share_percent,0.9218417736454116,percent,mangrove_area_weighted,,,Area-weighted share from the scale-specific annual MEHI grid.
+annual_hard_edge_share,a,,120,,2010,hard_urban_edge_area_share_percent,2.1226921553042644,percent,mangrove_area_weighted,,,Area-weighted share from the scale-specific annual MEHI grid.
+annual_hard_edge_share,a,,120,,2020,hard_urban_edge_area_share_percent,1.5888165229897326,percent,mangrove_area_weighted,,,Area-weighted share from the scale-specific annual MEHI grid.
+annual_hard_edge_share,a,,120,,2023,hard_urban_edge_area_share_percent,1.7535172268339314,percent,mangrove_area_weighted,,,Area-weighted share from the scale-specific annual MEHI grid.
+annual_hard_edge_share,a,,150,,2000,hard_urban_edge_area_share_percent,0.6784056225404602,percent,mangrove_area_weighted,,,Area-weighted share from the scale-specific annual MEHI grid.
+annual_hard_edge_share,a,,150,,2010,hard_urban_edge_area_share_percent,1.947702196768216,percent,mangrove_area_weighted,,,Area-weighted share from the scale-specific annual MEHI grid.
+annual_hard_edge_share,a,,150,,2020,hard_urban_edge_area_share_percent,1.3123855319681748,percent,mangrove_area_weighted,,,Area-weighted share from the scale-specific annual MEHI grid.
+annual_hard_edge_share,a,,150,,2023,hard_urban_edge_area_share_percent,1.4996317052895851,percent,mangrove_area_weighted,,,Area-weighted share from the scale-specific annual MEHI grid.
+annual_hard_edge_share,a,,180,,2000,hard_urban_edge_area_share_percent,0.5695273671864853,percent,mangrove_area_weighted,,,Area-weighted share from the scale-specific annual MEHI grid.
+annual_hard_edge_share,a,,180,,2010,hard_urban_edge_area_share_percent,1.840301525275972,percent,mangrove_area_weighted,,,Area-weighted share from the scale-specific annual MEHI grid.
+annual_hard_edge_share,a,,180,,2020,hard_urban_edge_area_share_percent,1.1350236559391194,percent,mangrove_area_weighted,,,Area-weighted share from the scale-specific annual MEHI grid.
+annual_hard_edge_share,a,,180,,2023,hard_urban_edge_area_share_percent,1.3577265056781571,percent,mangrove_area_weighted,,,Area-weighted share from the scale-specific annual MEHI grid.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,-0.0319664209834169,index,area_weighted,Australia,AUS,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,-0.0340633066082747,index,area_weighted,Australia,AUS,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,-0.0348841333286987,index,area_weighted,Australia,AUS,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,-0.0244989212411373,index,area_weighted,Bahrain,BHR,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,-0.0320334367995067,index,area_weighted,Bahrain,BHR,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,-0.0245098666308643,index,area_weighted,Bahrain,BHR,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,-0.0418718129414586,index,area_weighted,Brazil,BRA,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,-0.0435863310462541,index,area_weighted,Brazil,BRA,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,-0.0445813112197642,index,area_weighted,Brazil,BRA,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,0.0040006142927348,index,area_weighted,China,CHN,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,0.0012110077754777,index,area_weighted,China,CHN,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,0.0045103569084299,index,area_weighted,China,CHN,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,-0.0012029785660396,index,area_weighted,Colombia,COL,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,1.916568344111324e-05,index,area_weighted,Colombia,COL,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,-0.0006962166529515,index,area_weighted,Colombia,COL,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,-0.0582978262682308,index,area_weighted,Ghana,GHA,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,-0.0568160059427345,index,area_weighted,Ghana,GHA,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,-0.0562250561626507,index,area_weighted,Ghana,GHA,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,-0.0383118332594969,index,area_weighted,Guinea,GIN,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,-0.0392125552598781,index,area_weighted,Guinea,GIN,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,-0.0385835574912097,index,area_weighted,Guinea,GIN,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,0.0159575846110423,index,area_weighted,Indonesia,IDN,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,0.0174377859149158,index,area_weighted,Indonesia,IDN,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,0.0101863253166951,index,area_weighted,Indonesia,IDN,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,-0.1129273052520079,index,area_weighted,India,IND,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,-0.1210209795190535,index,area_weighted,India,IND,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,-0.122743476048112,index,area_weighted,India,IND,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,0.0670561701099223,index,area_weighted,Mexico,MEX,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,0.0666419115740973,index,area_weighted,Mexico,MEX,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,0.0650300339709064,index,area_weighted,Mexico,MEX,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,-0.0113668947120233,index,area_weighted,Mozambique,MOZ,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,-0.0120144668800807,index,area_weighted,Mozambique,MOZ,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,-0.0097810413657392,index,area_weighted,Mozambique,MOZ,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,0.0225646223739319,index,area_weighted,Malaysia,MYS,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,0.0225980517731195,index,area_weighted,Malaysia,MYS,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,0.0228514122452815,index,area_weighted,Malaysia,MYS,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,0.1348568981609522,index,area_weighted,Nigeria,NGA,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,0.1363502422728896,index,area_weighted,Nigeria,NGA,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,0.1396213589242833,index,area_weighted,Nigeria,NGA,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,0.0105626820762691,index,area_weighted,New Zealand,NZL,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,0.0107076757734579,index,area_weighted,New Zealand,NZL,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,0.0105950032778541,index,area_weighted,New Zealand,NZL,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,-0.0094017891799969,index,area_weighted,Pakistan,PAK,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,-0.0103108472179753,index,area_weighted,Pakistan,PAK,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,-0.0074920481153307,index,area_weighted,Pakistan,PAK,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,0.0291372931705843,index,area_weighted,Philippines,PHL,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,0.0272528323473906,index,area_weighted,Philippines,PHL,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,0.0278527806706891,index,area_weighted,Philippines,PHL,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,-0.0355335960024693,index,area_weighted,Singapore,SGP,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,-0.0313297237100141,index,area_weighted,Singapore,SGP,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,-0.0346204496694428,index,area_weighted,Singapore,SGP,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,0.0402989070921499,index,area_weighted,Thailand,THA,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,0.0422754339752749,index,area_weighted,Thailand,THA,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,0.0425995523965717,index,area_weighted,Thailand,THA,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,120_vs_150,120,150.0,2000-2023,pMEHI_area_weighted,-0.0049139111037463,index,area_weighted,United States,USA,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,reference_150,150,150.0,2000-2023,pMEHI_area_weighted,-0.0042566008078649,index,area_weighted,United States,USA,Country/location mean on the common endpoint support for this scale.
+country_pMEHI,b-c,180_vs_150,180,150.0,2000-2023,pMEHI_area_weighted,-0.0051803814032407,index,area_weighted,United States,USA,Country/location mean on the common endpoint support for this scale.
+common_domain_support,e,,120,,2000-2023,grid_cells,103312.0,cells,,,,Common endpoint support in the scale-specific pMEHI geodatabase.
+common_domain_support,e,,120,,2000-2023,mangrove_area_m2_in_grid,555090192.3261005,m2,,,,Common endpoint support in the scale-specific pMEHI geodatabase.
+common_domain_support,e,,150,,2000-2023,grid_cells,79509.0,cells,,,,Common endpoint support in the scale-specific pMEHI geodatabase.
+common_domain_support,e,,150,,2000-2023,mangrove_area_m2_in_grid,656631289.1898766,m2,,,,Common endpoint support in the scale-specific pMEHI geodatabase.
+common_domain_support,e,,180,,2000-2023,grid_cells,63543.0,cells,,,,Common endpoint support in the scale-specific pMEHI geodatabase.
+common_domain_support,e,,180,,2000-2023,mangrove_area_m2_in_grid,738639387.325763,m2,,,,Common endpoint support in the scale-specific pMEHI geodatabase.

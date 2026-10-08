@@ -1,0 +1,213 @@
+{
+  "format": "route-annual-relative",
+  "version": 1,
+  "rows": 79505,
+  "annual_years": [
+    2000,
+    2023
+  ],
+  "route_columns": [
+    "GU_A3",
+    "GRID_ID",
+    "pMEHI",
+    "weight_m2",
+    "route",
+    "route_threshold",
+    "route_evidence_metric",
+    "soft_to_built_m2",
+    "changed_area_m2",
+    "soft_to_built_share_of_changed",
+    "delta_tidalflat_share",
+    "delta_water_share",
+    "delta_nonmangroveveg_share",
+    "delta_built_share",
+    "delta_P",
+    "delta_C",
+    "delta_B",
+    "delta_S",
+    "quality_flag",
+    "valid_for_stats",
+    "pmehi_group",
+    "delta_soft_share",
+    "soft_to_built_share_of_observed",
+    "observed_transition_area_m2",
+    "built_gain_from_nonbuilt_m2"
+  ],
+  "route_dtypes": {
+    "GU_A3": "object",
+    "GRID_ID": "object",
+    "pMEHI": "float64",
+    "weight_m2": "float64",
+    "route": "object",
+    "route_threshold": "float64",
+    "route_evidence_metric": "float64",
+    "soft_to_built_m2": "float64",
+    "changed_area_m2": "float64",
+    "soft_to_built_share_of_changed": "float64",
+    "delta_tidalflat_share": "float64",
+    "delta_water_share": "float64",
+    "delta_nonmangroveveg_share": "float64",
+    "delta_built_share": "float64",
+    "delta_P": "float64",
+    "delta_C": "float64",
+    "delta_B": "float64",
+    "delta_S": "float64",
+    "quality_flag": "object",
+    "valid_for_stats": "bool",
+    "pmehi_group": "object",
+    "delta_soft_share": "float64",
+    "soft_to_built_share_of_observed": "float64",
+    "observed_transition_area_m2": "float64",
+    "built_gain_from_nonbuilt_m2": "float64"
+  },
+  "column_sha256": {
+    "GU_A3": "4e1dfc02b635697a9f542a28a073952fe1533b16a28304e9990f185a3cac335d",
+    "GRID_ID": "fc4a8abe1671b2321013ac5da804e62e13bb5cb66fb32516b29abc0a5c1c3942",
+    "pMEHI": "cbadf2503c12bdbfd8f6793b6a762289714a633ab5f3db14744dad97939b870c",
+    "weight_m2": "b7ac04b487631ee2309bb04ec91905e65792f3026ae267b7443b993c7b75c872",
+    "route": "3b2bd8cb70216e65455dcaa4fa952b628a48a59466527bcdbff327aaa5fbf180",
+    "route_threshold": "5f8b36d5ae1d74dde77048b2fdc542d715f1a0c42b32ad22f2cc491338301764",
+    "route_evidence_metric": "370fb675c266c05413a1a76f6cd3c8605c26f1ec6bf2a8bfc1ffd0448197e2f8",
+    "soft_to_built_m2": "ddf0c8b79388569478f4f5958e9317d434671fae26f3da2342f2b4a2eea60c0a",
+    "changed_area_m2": "59298f8b7fea1a3c8589a942c6db6618ede9747b162b920e70170a17699d5889",
+    "soft_to_built_share_of_changed": "b6cfcea9fa06692f40b8e0f556fb4984c495dea36167381387ff8f70ac4c4f54",
+    "delta_tidalflat_share": "c8c3293557df45e543f299dbb7a2ec194690bd7e49277dbb67f85ac649259087",
+    "delta_water_share": "669cc42b381b8be44e68621175cf7b448a77d0bd9131eb60410ae635d5bd7c55",
+    "delta_nonmangroveveg_share": "f35dd27d0f4ef1784a294ebbbd064f7d8885c6e785c09e1bf10e149652b7a523",
+    "delta_built_share": "5ff49456fe8da6c80e9cef6c807996737666b13b8077e1002e5ec0855c6a9c87",
+    "delta_P": "f7f5f3cdc6bb561336704e370507c7ba9edab04fd93ea890b5875245cec427e8",
+    "delta_C": "425342b2fa8600d5ce21bac49b773084c6c44b9b99ed95dc75c138b4d2f00498",
+    "delta_B": "24b20d6c797f42e65025e1e859e7905324a712242fb78006a3376a31384cc816",
+    "delta_S": "c2918809516e05955f2a9cf595f118483890fcbdc0b4204c60d130ae4b6249cd",
+    "quality_flag": "9d2c6d5a035e6dae0a87beb64fa2538d9227c57d1b1d9fba2f427a90fcc1108a",
+    "valid_for_stats": "9b0a475bd43037972dcde8c8326016cc86ea015e30cab8b903fa5f678b046038",
+    "pmehi_group": "7aa906cff68a36812ff6eb5b944ebd2fee99f80af1bfb621950953c3138c583f",
+    "delta_soft_share": "f26411c6a5931670fea0356ce282d091ade87c3b75eed00185babb3105b269f4",
+    "soft_to_built_share_of_observed": "7ae1378053677b6aebbdbf2e22e615fa48251cdf78f02faf4a1707b6a11491c0",
+    "observed_transition_area_m2": "91289b20ad781dbfad5ace060e2067f3e12bbf551e7710236badfa9993f8f830",
+    "built_gain_from_nonbuilt_m2": "26fb066ca02815ee3da0557a6eb897628a71cf905440c35fb85660e6227f786e"
+  },
+  "derivations": {
+    "pMEHI": {
+      "spec": {
+        "kind": "pMEHI"
+      },
+      "residual_column": "pMEHI__bit_residual"
+    },
+    "weight_m2": {
+      "spec": {
+        "kind": "min_mangrove"
+      },
+      "residual_column": "weight_m2__bit_residual"
+    },
+    "delta_P": {
+      "spec": {
+        "kind": "annual_component_delta",
+        "field": "P_COMP"
+      },
+      "residual_column": "delta_P__bit_residual"
+    },
+    "delta_C": {
+      "spec": {
+        "kind": "annual_component_delta",
+        "field": "C_COMP"
+      },
+      "residual_column": "delta_C__bit_residual"
+    },
+    "delta_B": {
+      "spec": {
+        "kind": "annual_component_delta",
+        "field": "B_COMP"
+      },
+      "residual_column": "delta_B__bit_residual"
+    },
+    "delta_S": {
+      "spec": {
+        "kind": "annual_component_delta",
+        "field": "S_COMP"
+      },
+      "residual_column": "delta_S__bit_residual"
+    },
+    "observed_transition_area_m2": {
+      "spec": {
+        "kind": "observed_area",
+        "mode": "minimum"
+      },
+      "residual_column": "observed_transition_area_m2__bit_residual"
+    },
+    "delta_tidalflat_share": {
+      "spec": {
+        "kind": "class_delta",
+        "field": "area_tidal_flat_m2",
+        "mode": "annual_total_shares"
+      },
+      "residual_column": "delta_tidalflat_share__bit_residual"
+    },
+    "delta_water_share": {
+      "spec": {
+        "kind": "class_delta",
+        "field": "area_water_m2",
+        "mode": "annual_total_shares"
+      },
+      "residual_column": "delta_water_share__bit_residual"
+    },
+    "delta_nonmangroveveg_share": {
+      "spec": {
+        "kind": "class_delta",
+        "field": "area_non_mangrove_vegetation_m2",
+        "mode": "annual_total_shares"
+      },
+      "residual_column": "delta_nonmangroveveg_share__bit_residual"
+    },
+    "delta_built_share": {
+      "spec": {
+        "kind": "class_delta",
+        "field": "area_built_up_m2",
+        "mode": "annual_total_shares"
+      },
+      "residual_column": "delta_built_share__bit_residual"
+    },
+    "delta_soft_share": {
+      "spec": {
+        "kind": "soft_sum",
+        "fields": [
+          "delta_tidalflat_share",
+          "delta_nonmangroveveg_share",
+          "delta_water_share"
+        ]
+      },
+      "residual_column": "delta_soft_share__bit_residual"
+    },
+    "soft_to_built_share_of_changed": {
+      "spec": {
+        "kind": "local_ratio",
+        "numerator": "soft_to_built_m2",
+        "denominator": "changed_area_m2",
+        "threshold": 0
+      },
+      "residual_column": "soft_to_built_share_of_changed__bit_residual"
+    },
+    "soft_to_built_share_of_observed": {
+      "spec": {
+        "kind": "local_ratio",
+        "numerator": "soft_to_built_m2",
+        "denominator": "observed_transition_area_m2",
+        "threshold": 0
+      },
+      "residual_column": "soft_to_built_share_of_observed__bit_residual"
+    },
+    "route_evidence_metric": {
+      "spec": {
+        "kind": "evidence"
+      },
+      "residual_column": "route_evidence_metric__bit_residual"
+    },
+    "route_threshold": {
+      "spec": {
+        "kind": "constant",
+        "value": 0.3
+      },
+      "residual_column": null
+    }
+  }
+}

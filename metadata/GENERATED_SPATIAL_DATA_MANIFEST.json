@@ -1,0 +1,162 @@
+[
+  {
+    "year": 2000,
+    "file": "mosaic2000join.shp",
+    "sha256": "9fb4f0356950dcaacbdf44d63a181a847b7dcb570496d3bb105d6d55cfa86f4f",
+    "features": 924102,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2000,
+    "file": "mosaic2000join.shx",
+    "sha256": "8f53b06359929087904e2b90b31d8bd8253972f2a686fcd9e7a9f788c0e106ae",
+    "features": 924102,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2000,
+    "file": "mosaic2000join.dbf",
+    "sha256": "7d7f098b86278787316366989b6f9bb866a8887b06014726a3b03b05376fe769",
+    "features": 924102,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2000,
+    "file": "mosaic2000join.prj",
+    "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+    "features": 924102,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2000,
+    "file": "mosaic2000join.cpg",
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "features": 924102,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2010,
+    "file": "mosaic2010join.shp",
+    "sha256": "791b5e190101b09d9ae1c1461b7fbb4c5b40a15140adb9e6d517b90162a1534a",
+    "features": 871006,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2010,
+    "file": "mosaic2010join.shx",
+    "sha256": "4a54cc1c361bd80fb8d0b41b3ddcf4912826e732fba1600f9cc0c27d798994f2",
+    "features": 871006,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2010,
+    "file": "mosaic2010join.dbf",
+    "sha256": "2acc5dcc3b9e704b5ff8b0f33b25bd9f5b994e82801463220a15fc97644768c3",
+    "features": 871006,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2010,
+    "file": "mosaic2010join.prj",
+    "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+    "features": 871006,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2010,
+    "file": "mosaic2010join.cpg",
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "features": 871006,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2020,
+    "file": "mosaic2020join.shp",
+    "sha256": "45871f40e605dcbe66d3ec9e684f74c4ef845ddc72461d75ee4d81b004c43354",
+    "features": 973500,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2020,
+    "file": "mosaic2020join.shx",
+    "sha256": "34c0ea1d5f3e5721a382ae6cb0f0f51503f781f3a60d6e02569ad856cce4ca94",
+    "features": 973500,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2020,
+    "file": "mosaic2020join.dbf",
+    "sha256": "4941e3bb97af535611ec3636ec19a4fea14e7aea223a6d95bdf7632a0985a6a6",
+    "features": 973500,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2020,
+    "file": "mosaic2020join.prj",
+    "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+    "features": 973500,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2020,
+    "file": "mosaic2020join.cpg",
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "features": 973500,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2023,
+    "file": "mosaic2023join.shp",
+    "sha256": "b622be1b719e338ca7188fa2c1346fe1f6648f527248112cea74e1ef7f1e36bd",
+    "features": 964086,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2023,
+    "file": "mosaic2023join.shx",
+    "sha256": "7502ef4f24a35eb75d13d0c3bc5284a91d6cabb887b20af743ecce10a76e964b",
+    "features": 964086,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2023,
+    "file": "mosaic2023join.dbf",
+    "sha256": "5dd1ea0a092cccec0aba321498625e2cf0535bd8141f69daa762932e4e430839",
+    "features": 964086,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2023,
+    "file": "mosaic2023join.prj",
+    "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+    "features": 964086,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  },
+  {
+    "year": 2023,
+    "file": "mosaic2023join.cpg",
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "features": 964086,
+    "crs": "EPSG:4326",
+    "status": "Study-generated full-resolution mosaic; separately inventoried spatial input"
+  }
+]

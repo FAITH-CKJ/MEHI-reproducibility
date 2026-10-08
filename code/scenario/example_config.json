@@ -1,0 +1,49 @@
+{
+  "output_dir": "../../outputs/scenario",
+  "inputs": {
+    "edge_baseline_2023": "../../data/scenario/edge_grid_2023.csv.gz",
+    "scenario_cells": "../../data/scenario/ssp_aligned_inputs.csv.gz"
+  },
+  "screen_parameters": {
+    "lambda_m": 300.0,
+    "soft_support_coefficient": 0.7,
+    "other_support_coefficient": 1.0,
+    "gamma": 1.0,
+    "local_built_density_weight": 0.5
+  },
+  "uncertainty": {
+    "SSPs": [
+      "SSP2",
+      "SSP5"
+    ],
+    "year": 2100,
+    "lambda_m": [
+      150,
+      300,
+      600
+    ],
+    "eligibility": [
+      "conservative",
+      "reclamation_pressure"
+    ],
+    "realizations": 100,
+    "random_seed": 20260608
+  },
+  "backtest_jobs": [
+    {
+      "target_year": 2010,
+      "edge_baseline": "../../data/scenario/edge_grid_2000.csv.gz",
+      "observed_target_edges": "../../data/scenario/edge_grid_2010.csv.gz"
+    },
+    {
+      "target_year": 2020,
+      "edge_baseline": "../../data/scenario/edge_grid_2000.csv.gz",
+      "observed_target_edges": "../../data/scenario/edge_grid_2020.csv.gz"
+    },
+    {
+      "target_year": 2023,
+      "edge_baseline": "../../data/scenario/edge_grid_2000.csv.gz",
+      "observed_target_edges": "../../data/scenario/edge_grid_2023.csv.gz"
+    }
+  ]
+}

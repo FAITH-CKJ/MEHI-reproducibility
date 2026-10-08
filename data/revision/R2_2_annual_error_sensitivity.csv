@@ -1,0 +1,33 @@
+scenario,year,grid_count,observed_mangrove_weight_m2,hard_edge_share_percent,soft_edge_share_percent,weighted_MEHI_mean,scope
+observed,2000,115462,1109799372.7803466,0.6784056225404599,91.98044461960595,-0.6466346197409373,fixed observed geometry/domain/weights; composition only
+pooled_composition,2000,115462,1109799372.7803466,0.45838055101769815,91.80026932573296,-0.6277317505075871,fixed observed geometry/domain/weights; composition only
+year_specific_composition,2000,115462,1109799372.7803466,0.44476221805759125,91.618883556679,-0.6254168420905943,fixed observed geometry/domain/weights; composition only
+three_block,2000,115462,1109799372.7803466,0.8880794154843324,86.09101546525666,-0.5527874984203526,"specification sensitivity: proximity, contact and combined composition each one-third"
+distance_shift_-60m,2000,115462,1109799372.7803466,0.6790796641652888,91.76856888269586,-0.6207008633369157,distance-only stress test; other observed components fixed
+distance_shift_-30m,2000,115462,1109799372.7803466,0.6790796641652888,91.8397671981006,-0.6331677473636087,distance-only stress test; other observed components fixed
+distance_shift_+30m,2000,115462,1109799372.7803466,0.6412059351004543,92.4095786809085,-0.6596778601958718,distance-only stress test; other observed components fixed
+distance_shift_+60m,2000,115462,1109799372.7803466,0.5971903734408217,92.8064152313204,-0.6726086306275032,distance-only stress test; other observed components fixed
+observed,2010,122334,1193859555.970161,1.9477021967682164,89.909917976947,-0.6231622448513685,fixed observed geometry/domain/weights; composition only
+pooled_composition,2010,122334,1193859555.970161,1.07577476873065,90.07993654566877,-0.6109858197364924,fixed observed geometry/domain/weights; composition only
+year_specific_composition,2010,122334,1193859555.970161,1.324690437381283,89.76465346587125,-0.6007322663894376,fixed observed geometry/domain/weights; composition only
+three_block,2010,122334,1193859555.970161,2.1584420973787135,84.47269277509886,-0.5324076100624329,"specification sensitivity: proximity, contact and combined composition each one-third"
+distance_shift_-60m,2010,122334,1193859555.970161,1.9485940129559756,89.6747159001193,-0.5974746961994053,distance-only stress test; other observed components fixed
+distance_shift_-30m,2010,122334,1193859555.970161,1.9485832322510055,89.74864031034528,-0.6098426122445124,distance-only stress test; other observed components fixed
+distance_shift_+30m,2010,122334,1193859555.970161,1.8742457954132479,90.28823439007513,-0.6362757121341533,distance-only stress test; other observed components fixed
+distance_shift_+60m,2010,122334,1193859555.970161,1.8165567106739844,90.67691039074917,-0.6492968779385867,distance-only stress test; other observed components fixed
+observed,2020,118661,1162465329.987016,1.3123855319681745,90.03882006745368,-0.6275460613665509,fixed observed geometry/domain/weights; composition only
+pooled_composition,2020,118661,1162465329.987016,0.7987312273448396,90.14680664761703,-0.6132523781111361,fixed observed geometry/domain/weights; composition only
+year_specific_composition,2020,118661,1162465329.987016,0.754158161349167,90.3527202894934,-0.6201786027233265,fixed observed geometry/domain/weights; composition only
+three_block,2020,118661,1162465329.987016,1.6118183324701587,84.08772471629145,-0.5340304444287056,"specification sensitivity: proximity, contact and combined composition each one-third"
+distance_shift_-60m,2020,118661,1162465329.987016,1.3127840269799256,89.81045792693885,-0.602103541248604,distance-only stress test; other observed components fixed
+distance_shift_-30m,2020,118661,1162465329.987016,1.3127840269799256,89.88296898282412,-0.6143362942027152,distance-only stress test; other observed components fixed
+distance_shift_+30m,2020,118661,1162465329.987016,1.2495551337384236,90.43019872062683,-0.6407347232627063,distance-only stress test; other observed components fixed
+distance_shift_+60m,2020,118661,1162465329.987016,1.1824729132914118,90.80093448555328,-0.653819369952418,distance-only stress test; other observed components fixed
+observed,2023,117546,1152484291.114404,1.499631705289586,90.09590239327385,-0.6350152443201726,fixed observed geometry/domain/weights; composition only
+pooled_composition,2023,117546,1152484291.114404,0.8703158986702644,90.27361543216666,-0.6208841440294317,fixed observed geometry/domain/weights; composition only
+year_specific_composition,2023,117546,1152484291.114404,0.8154436291241761,90.34041330589025,-0.6210308897482705,fixed observed geometry/domain/weights; composition only
+three_block,2023,117546,1152484291.114404,1.7894005276906884,84.433776210783,-0.5448682322622114,"specification sensitivity: proximity, contact and combined composition each one-third"
+distance_shift_-60m,2023,117546,1152484291.114404,1.5002955250040209,89.89656091180143,-0.6094523800466128,distance-only stress test; other observed components fixed
+distance_shift_-30m,2023,117546,1152484291.114404,1.5002955250040209,89.95622351553256,-0.6217614528747155,distance-only stress test; other observed components fixed
+distance_shift_+30m,2023,117546,1152484291.114404,1.4279432983520834,90.47036663966983,-0.6478686691436081,distance-only stress test; other observed components fixed
+distance_shift_+60m,2023,117546,1152484291.114404,1.3452955232762887,90.81038724529267,-0.6606174214485836,distance-only stress test; other observed components fixed

@@ -1,0 +1,8 @@
+field_name,definition,unit,allowed_range,source,role_in_appendix_or_fig5
+scenario,Shared Socioeconomic Pathway scenario,unitless,"SSP1, SSP2, SSP3, SSP5",exp2_gao_scenario_year_lookup_review.csv; n=40,future urban-expansion scenario
+year,scenario or observed year,year,"2000, 2010, 2020, 2023, 2030, 2050, 2070 or 2100",exp2_gao_scenario_year_lookup_review.csv; n=40,temporal index
+file_path,sanitized external dataset path alias,text,package-relative or external alias,exp2_gao_scenario_year_lookup_review.csv; n=40,source traceability without local paths
+variable_name,field copied from exp2_gao_scenario_year_lookup_review.csv,as recorded,see source table,exp2_gao_scenario_year_lookup_review.csv; n=40,source-data traceability
+dims,field copied from exp2_gao_scenario_year_lookup_review.csv,as recorded,see source table,exp2_gao_scenario_year_lookup_review.csv; n=40,source-data traceability
+shape,field copied from exp2_gao_scenario_year_lookup_review.csv,as recorded,see source table,exp2_gao_scenario_year_lookup_review.csv; n=40,source-data traceability
+conversion,field copied from exp2_gao_scenario_year_lookup_review.csv,as recorded,see source table,exp2_gao_scenario_year_lookup_review.csv; n=40,source-data traceability

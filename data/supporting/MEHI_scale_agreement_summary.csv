@@ -1,0 +1,15 @@
+comparison,metric,value,unit,country_location_n,definition
+120_vs_150,pearson_r,0.9987108655718516,correlation,19,Country/location area-weighted pMEHI at 120 m versus 150 m.
+120_vs_150,spearman_rho,0.9947368421052633,correlation,19,Rank correlation of country/location area-weighted pMEHI at 120 m versus 150 m.
+120_vs_150,pMEHI_sign_consistent_n,18.0,countries,19,Number retaining the sign of area-weighted pMEHI at 120 m and 150 m.
+120_vs_150,pMEHI_sign_consistent_percent,94.73684210526316,percent,19,Percentage retaining the sign of area-weighted pMEHI at 120 m and 150 m.
+180_vs_150,pearson_r,0.9984369359550948,correlation,19,Country/location area-weighted pMEHI at 180 m versus 150 m.
+180_vs_150,spearman_rho,0.9964912280701754,correlation,19,Rank correlation of country/location area-weighted pMEHI at 180 m versus 150 m.
+180_vs_150,pMEHI_sign_consistent_n,18.0,countries,19,Number retaining the sign of area-weighted pMEHI at 180 m and 150 m.
+180_vs_150,pMEHI_sign_consistent_percent,94.73684210526316,percent,19,Percentage retaining the sign of area-weighted pMEHI at 180 m and 150 m.
+120_vs_180,pMEHI_sign_consistent_n,19.0,countries,19,Number retaining the sign of area-weighted pMEHI at 120 m and 180 m.
+120_vs_180,pMEHI_sign_consistent_percent,100.0,percent,19,Percentage retaining the sign of area-weighted pMEHI at 120 m and 180 m.
+all_three_scales,pMEHI_sign_consistent_n,18.0,countries,19,"Number with the same area-weighted pMEHI sign at 120 m, 150 m and 180 m."
+all_three_scales,pMEHI_sign_consistent_percent,94.73684210526316,percent,19,Percentage with the same area-weighted pMEHI sign at all three scales.
+all_three_scales,joint_area_edge_pathway_consistent_n,17.0,countries,19,"Number retaining the same joint mangrove-area--pMEHI pathway class at 120 m, 150 m and 180 m."
+all_three_scales,joint_area_edge_pathway_consistent_percent,89.47368421052632,percent,19,Percentage retaining the same joint mangrove-area--pMEHI pathway class at all three scales.

@@ -1,0 +1,13 @@
+year,edge_state,edge_state_label,area_weight_sum,area_weighted_share_percent,grid_count,grid_share_percent,source_fc,classification_note,data_role
+2000,soft_buffered,Soft-buffered,1020798397.4689609,91.98044464851048,100111,86.70471670333096,mehi_grid_150m_2000,"MEHI_CLASS where valid; fallback to thresholds soft < -0.33, mixed -0.33 to 0.33, hard > 0.33",composition
+2000,mixed,Mixed,81472033.96752498,7.3411497313942045,13036,11.29029464239317,mehi_grid_150m_2000,"MEHI_CLASS where valid; fallback to thresholds soft < -0.33, mixed -0.33 to 0.33, hard > 0.33",composition
+2000,hard_urban_edge,Hard urban edge,7528941.343860632,0.6784056200953131,2315,2.004988654275865,mehi_grid_150m_2000,"MEHI_CLASS where valid; fallback to thresholds soft < -0.33, mixed -0.33 to 0.33, hard > 0.33",composition
+2010,soft_buffered,Soft-buffered,1073398147.5327154,89.90991778482268,103524,84.62406199421257,mehi_grid_150m_2010,"MEHI_CLASS where valid; fallback to thresholds soft < -0.33, mixed -0.33 to 0.33, hard > 0.33",composition
+2010,mixed,Mixed,97208579.63948771,8.142380029829129,14833,12.125002043585594,mehi_grid_150m_2010,"MEHI_CLASS where valid; fallback to thresholds soft < -0.33, mixed -0.33 to 0.33, hard > 0.33",composition
+2010,hard_urban_edge,Hard urban edge,23252828.7979581,1.947702185348183,3977,3.250935962201841,mehi_grid_150m_2010,"MEHI_CLASS where valid; fallback to thresholds soft < -0.33, mixed -0.33 to 0.33, hard > 0.33",composition
+2020,soft_buffered,Soft-buffered,1046670066.8135409,90.03882010172973,99981,84.25767522606417,mehi_grid_150m_2020,"MEHI_CLASS where valid; fallback to thresholds soft < -0.33, mixed -0.33 to 0.33, hard > 0.33",composition
+2020,mixed,Mixed,100539236.36857924,8.64879437081796,15005,12.645266768356915,mehi_grid_150m_2020,"MEHI_CLASS where valid; fallback to thresholds soft < -0.33, mixed -0.33 to 0.33, hard > 0.33",composition
+2020,hard_urban_edge,Hard urban edge,15256026.804895693,1.3123855274523044,3675,3.097058005578918,mehi_grid_150m_2020,"MEHI_CLASS where valid; fallback to thresholds soft < -0.33, mixed -0.33 to 0.33, hard > 0.33",composition
+2023,soft_buffered,Soft-buffered,1038341122.0202475,90.0959024276486,99166,84.36356830517414,mehi_grid_150m_2023,"MEHI_CLASS where valid; fallback to thresholds soft < -0.33, mixed -0.33 to 0.33, hard > 0.33",composition
+2023,mixed,Mixed,96860149.26612315,8.404465872266666,14639,12.453847855307709,mehi_grid_150m_2023,"MEHI_CLASS where valid; fallback to thresholds soft < -0.33, mixed -0.33 to 0.33, hard > 0.33",composition
+2023,hard_urban_edge,Hard urban edge,17283019.82803353,1.4996317000847188,3741,3.182583839518146,mehi_grid_150m_2023,"MEHI_CLASS where valid; fallback to thresholds soft < -0.33, mixed -0.33 to 0.33, hard > 0.33",composition

@@ -1,0 +1,6 @@
+{
+  "symmetric_per_year_MEHI_error_bound_at_first_possible_trend_reversal": 0.10742056499166046,
+  "adverse_2000_hard_share_percent": 1.0928967629934547,
+  "adverse_2023_hard_share_percent": 1.0913362509103333,
+  "meaning": "Uniform worst-direction index perturbation in opposite directions between endpoints; diagnostic only. No empirically justified upper bound on spatial classification-induced index error is available."
+}

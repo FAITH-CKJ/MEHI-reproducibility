@@ -1,0 +1,5 @@
+comparison,n_countries_compared,n_same_dominant_route,share_same_dominant_route_percent
+0.20_vs_0.30,19.0,19,100.0
+0.40_vs_0.30,19.0,18,94.73684210526315
+grid_labels_0.20_vs_0.30,,78427,98.64411043330608
+grid_labels_0.40_vs_0.30,,78737,99.0340230174203

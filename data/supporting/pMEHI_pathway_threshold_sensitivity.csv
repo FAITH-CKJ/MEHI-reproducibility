@@ -1,0 +1,4 @@
+absolute_pMEHI_threshold,persistence_gain_softening_n,persistence_gain_neutral_n,persistence_gain_hardening_n,loss_softening_n,loss_hardening_n
+0.0025,8,2,4,2,3
+0.005,7,3,4,2,3
+0.01,7,3,4,2,3

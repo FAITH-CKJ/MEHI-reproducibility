@@ -1,0 +1,19 @@
+Figure-number correspondence for the current CEE revision
+
+Submitted figure -> Revised figure -> subject
+2 -> 1 : Annual MEHI states
+3 -> 2 : Matched-neighbourhood pMEHI distributions
+4 -> 3 : Joint area and edge trajectories; components
+5 -> 4 : Land-cover transitions and mapped routes
+6 -> 5 : Conditional future exposure
+1 -> 6 : Component diagram, now in Methods following Reviewer 1
+
+Current figure exports and plot-command selectors use revised numbering.
+Source-data filenames such as Fig2_*, Fig5_* and Fig6_* retain their original
+identifiers to preserve analytical provenance and executable joins. Their
+current figure association is given above. Supplementary figures retain their
+separate numbering. Data values and scientific field names are unchanged.
+
+Rebuild revised figures with:
+python code/redraw_cee_r1_figures.py --figures 1 2 5
+Figures 3 and 4 have numerical source tables and a diagnostic reconstruction in rebuild_figures.py. The concept diagram (Figure 6) and publication figure files accompany the manuscript.

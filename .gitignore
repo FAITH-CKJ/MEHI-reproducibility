@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+reproduced/
+reproduced_figures/
+outputs/
+# Expanded tables are generated from the versioned lossless payloads.
+data/samples/
+data/cartography/
+data/revision/classification_sensitivity_inputs_150m.csv.gz
+data/revision/canonical_matched_support.csv.gz
+data/scenario/edge_grid_*.csv.gz
+data/scenario/ssp_aligned_inputs.csv.gz
+data/figure_source/Fig2_edge_state_maps_2000_2023.csv.gz
+data/figure_source/Fig3_matched_neighbourhoods.csv.gz
+data/figure_source/Fig6_maps_SSP2_SSP5_2100.csv.gz
+data/figure_source/Fig6_2023_external_area_weights.csv.gz
+data/supporting/Fig5_grid_route_classification.csv.gz

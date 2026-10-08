@@ -1,0 +1,9 @@
+scenario,year,support,n,hard_edge_share_percent
+observed,2000,"common endpoint cells, fixed minimum mangrove-area weights",79509,0.6472998036232553
+observed,2023,"common endpoint cells, fixed minimum mangrove-area weights",79509,1.1986702097003847
+pooled_composition,2000,"common endpoint cells, fixed minimum mangrove-area weights",79509,0.4305306706153299
+pooled_composition,2023,"common endpoint cells, fixed minimum mangrove-area weights",79509,0.643864283973976
+year_specific_composition,2000,"common endpoint cells, fixed minimum mangrove-area weights",79509,0.416022906751362
+year_specific_composition,2023,"common endpoint cells, fixed minimum mangrove-area weights",79509,0.6007739647197811
+three_block,2000,"common endpoint cells, fixed minimum mangrove-area weights",79509,0.8629879449294492
+three_block,2023,"common endpoint cells, fixed minimum mangrove-area weights",79509,1.4133975625834738

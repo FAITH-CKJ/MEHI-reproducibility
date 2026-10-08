@@ -1,0 +1,4 @@
+term,coefficient,n,n_countries,note
+delta_built_share,1.1559551716357785,79505,19,"within-country demeaning; descriptive association only, no causal interpretation"
+negative_delta_soft_share,-0.010803158967420609,79505,19,"within-country demeaning; descriptive association only, no causal interpretation"
+soft_to_built_share_of_changed,0.1206240124023504,79505,19,"within-country demeaning; descriptive association only, no causal interpretation"

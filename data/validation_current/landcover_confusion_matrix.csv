@@ -1,0 +1,7 @@
+mapped_class,mangrove,tidal_flat,non_mangrove_vegetation,water,built_up,other
+mangrove,1899,9,92,5,1,1
+tidal_flat,5,570,25,32,3,11
+non_mangrove_vegetation,265,25,2583,55,85,37
+water,18,133,26,1670,16,18
+built_up,2,15,69,14,1500,74
+other,2,49,13,4,49,436

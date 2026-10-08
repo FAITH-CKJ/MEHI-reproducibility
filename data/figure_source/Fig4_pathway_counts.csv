@@ -1,0 +1,5 @@
+panel,pathway,country_location_code_count,unit,source,filters
+b,Persistent buffered,8,number of country/location codes,Fig4_area_pMEHI_pathways.csv,19 sampled country/location codes with complete endpoint-matched mangrove-area and pMEHI summaries
+b,Persistent hardening,6,number of country/location codes,Fig4_area_pMEHI_pathways.csv,19 sampled country/location codes with complete endpoint-matched mangrove-area and pMEHI summaries
+b,Loss hardening,3,number of country/location codes,Fig4_area_pMEHI_pathways.csv,19 sampled country/location codes with complete endpoint-matched mangrove-area and pMEHI summaries
+b,Loss without hardening,2,number of country/location codes,Fig4_area_pMEHI_pathways.csv,19 sampled country/location codes with complete endpoint-matched mangrove-area and pMEHI summaries

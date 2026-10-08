@@ -1,0 +1,5 @@
+panel,component,metric,value,unit,weighting_type,source_file,notes
+c,P,P_global_contribution_to_pMEHI,-0.0073803673593498,pMEHI contribution,area-weighted,R4_global_component_contributions_150m.csv,Component contribution = component change / 8.
+c,C,C_global_contribution_to_pMEHI,0.0004313785328724,pMEHI contribution,area-weighted,R4_global_component_contributions_150m.csv,Component contribution = component change / 8.
+c,B,B_global_contribution_to_pMEHI,0.0015490689421183,pMEHI contribution,area-weighted,R4_global_component_contributions_150m.csv,Component contribution = component change / 8.
+c,S,S_global_contribution_to_pMEHI,0.0016855026526923,pMEHI contribution,area-weighted,R4_global_component_contributions_150m.csv,Component contribution = component change / 8.

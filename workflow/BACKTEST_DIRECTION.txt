@@ -1,0 +1,16 @@
+Historical reconstruction direction definition
+
+Three categories are defined by Delta MEHI < -0.01 (softening), -0.01 <=
+Delta MEHI <= 0.01 (near-neutral), and Delta MEHI > 0.01 (hardening). This is
+the primary pMEHI +/-0.005 band expressed on Delta MEHI, because pMEHI is half
+the endpoint difference. Zeros remain separate from positive change.
+The reconstruction allocates observed positive built-area increments and does
+not generate softening. The full observed/predicted category counts are in
+data/supporting/backtest_direction_counts.csv. Current agreement is 26.388476%,
+25.263080% and 26.326513% for 2010, 2020 and 2023. It is stable under direct
+geodatabase attributes and both tested CSV precision modes. The portable code
+uses round-trip float parsing and the explicit scientific near-neutral band.
+
+Run the full scenario workflow from this release root:
+python code/scenario/run_scenario_projection.py run-all --config code/scenario/example_config.json
+The supplied input tables permit this run without the original spatial GDB.

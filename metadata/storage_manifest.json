@@ -1,0 +1,1064 @@
+{
+  "version": "v1.0.0",
+  "numeric_encoding": "IEEE-754 float64 preserved bit for bit; integer and string values preserved",
+  "direct_tables": [
+    {
+      "path": "data/revision/classification_sensitivity_inputs_150m.csv.gz",
+      "storage": "data/packed/classification_sensitivity_inputs_150m.ndcol.zst"
+    },
+    {
+      "path": "data/scenario/ssp_aligned_inputs.csv.gz",
+      "storage": "data/packed/ssp_aligned_inputs.ndcol.zst"
+    },
+    {
+      "path": "data/figure_source/Fig3_matched_neighbourhoods.csv.gz",
+      "storage": "data/packed/Fig3_matched_neighbourhoods.ndcol.zst"
+    },
+    {
+      "path": "data/samples/training_samples.csv",
+      "storage": "data/packed/training_samples.ndcol.zst"
+    }
+  ],
+  "relational_tables": [
+    {
+      "path": "data/scenario/edge_grid_2000.csv.gz",
+      "storage": "data/packed/edge_grid_2000.ndcol.zst",
+      "rows": 115462,
+      "columns": [
+        {
+          "name": "A_BUILT_M2",
+          "dtype": "float64",
+          "sha256": "0154b94ef146154ca903dcbf09d4dae274439490eedffabf99159f0c567183f8",
+          "source": "annual",
+          "terms": [
+            "area_built_up_m2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_CONTACT_M2",
+          "dtype": "float64",
+          "sha256": "98acf0d818d3d323291a632570542f1de71b1e368a5ff1bff9c7b256cb8d6de1",
+          "source": "payload",
+          "column": "A_CONTACT_M2"
+        },
+        {
+          "name": "A_M_M2",
+          "dtype": "float64",
+          "sha256": "60df6fb5a941d93ad5803b718ca93b893ce53bad41d018cc5f83271071846daa",
+          "source": "annual",
+          "terms": [
+            "A_M_M2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_OBS_EXT_M2",
+          "dtype": "float64",
+          "sha256": "0830692b1bf9721b186cbbfb041fe06284e075254288bccd75d12f0c73414cfe",
+          "source": "annual",
+          "terms": [
+            "A_OBS_EXT_M2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_OTHER_M2",
+          "dtype": "float64",
+          "sha256": "81e972a9c64cc6b97535bba0e354ba7be39a0633ccb7533c64de9a7bfdd6d6bd",
+          "source": "annual",
+          "terms": [
+            "area_other_m2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_SOFT_M2",
+          "dtype": "float64",
+          "sha256": "656815411e8b7a69d91762005d546a3e29016ae6614baffd01c4037bd05dfa3d",
+          "source": "annual",
+          "terms": [
+            "area_tidal_flat_m2",
+            "area_non_mangrove_vegetation_m2",
+            "area_water_m2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "B_COMP",
+          "dtype": "float64",
+          "sha256": "b7809f33cc673a6139ce5f4094baa97b3afe8b871da157ec05ca31a02bc1308f",
+          "source": "annual",
+          "terms": [
+            "B_COMP"
+          ],
+          "residual": null
+        },
+        {
+          "name": "C_COMP",
+          "dtype": "float64",
+          "sha256": "d480a0e92d892ce6006dde0e03540beaa5f1f9215f8ee850ed04ed09f4bf8639",
+          "source": "annual",
+          "terms": [
+            "C_COMP"
+          ],
+          "residual": null
+        },
+        {
+          "name": "EDGE_DIST_M",
+          "dtype": "float64",
+          "sha256": "b7488d940112389c273760f5e83c9cad34c656ba04497ed77498b550c1e98917",
+          "source": "annual",
+          "terms": [
+            "EDGE_DIST_M"
+          ],
+          "residual": null
+        },
+        {
+          "name": "edge_grid_id",
+          "dtype": "object",
+          "sha256": "dfc13ee3c629a61dc2cd4ca35176fed8704864cc1fde3539f6bfdd6dd5af7fe1",
+          "source": "annual",
+          "terms": [
+            "GRID_ID"
+          ],
+          "residual": null
+        },
+        {
+          "name": "GRID_UID",
+          "dtype": "int64",
+          "sha256": "b3b662f6660fc5308d9569fc332475d5f6aa5f3718233df074332d8f54c64396",
+          "source": "annual",
+          "terms": [
+            "GRID_UID"
+          ],
+          "residual": null
+        },
+        {
+          "name": "country",
+          "dtype": "object",
+          "sha256": "2dfedc43ac3a6f7cd68f597e046bb00911b7e805e5cae66dde369e1d2e9c3638",
+          "source": "annual",
+          "terms": [
+            "GU_A3"
+          ],
+          "residual": null
+        },
+        {
+          "name": "MEHI",
+          "dtype": "float64",
+          "sha256": "9eb8d9b8f9a195b408d1d37652d3ea4473430029ef72daa87ae546b20ba91016",
+          "source": "annual",
+          "terms": [
+            "MEHI"
+          ],
+          "residual": null
+        },
+        {
+          "name": "P_COMP",
+          "dtype": "float64",
+          "sha256": "ae1a87c3a1967f895a88039979fe1de64f6fe1ac0ce88459f60901c19e1b3b1a",
+          "source": "annual",
+          "terms": [
+            "P_COMP"
+          ],
+          "residual": null
+        },
+        {
+          "name": "S_COMP",
+          "dtype": "float64",
+          "sha256": "a5428a837be07946993751c30929921d33ccd43a0d270a4d20a6a9542e744d8d",
+          "source": "annual",
+          "terms": [
+            "S_COMP"
+          ],
+          "residual": null
+        }
+      ]
+    },
+    {
+      "path": "data/scenario/edge_grid_2010.csv.gz",
+      "storage": "data/packed/edge_grid_2010.ndcol.zst",
+      "rows": 122334,
+      "columns": [
+        {
+          "name": "A_BUILT_M2",
+          "dtype": "float64",
+          "sha256": "0a8c119f1808e11354221f0d0fdbb9c42aac1f5a8df178935941d305cab878ed",
+          "source": "annual",
+          "terms": [
+            "area_built_up_m2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_CONTACT_M2",
+          "dtype": "float64",
+          "sha256": "30d30be7b37b7d0e5a3a865b20acc2fca13f52072cced7f58172205666a48258",
+          "source": "payload",
+          "column": "A_CONTACT_M2"
+        },
+        {
+          "name": "A_M_M2",
+          "dtype": "float64",
+          "sha256": "73f62442f88dddcaeab5b764b13517f81ec3efe9abfb8a748e2ef7beb3e7e24c",
+          "source": "annual",
+          "terms": [
+            "A_M_M2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_OBS_EXT_M2",
+          "dtype": "float64",
+          "sha256": "fcab2a8633f38befdad7b05d887af5af41de2f033b0b6acfe6576e8c4ff151d2",
+          "source": "annual",
+          "terms": [
+            "A_OBS_EXT_M2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_OTHER_M2",
+          "dtype": "float64",
+          "sha256": "53c0fc4e77dc2099c70c6a2af5748bfedc400c61bd27b02fb98f26aa3063b757",
+          "source": "annual",
+          "terms": [
+            "area_other_m2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_SOFT_M2",
+          "dtype": "float64",
+          "sha256": "7de522b8956bed9f5be0601ebd8aa3e826922486ccd5763c921603ae188d9d01",
+          "source": "annual",
+          "terms": [
+            "area_tidal_flat_m2",
+            "area_non_mangrove_vegetation_m2",
+            "area_water_m2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "B_COMP",
+          "dtype": "float64",
+          "sha256": "9c62a8918fe7e9c25a184dffd6480d154236ad54912ef1b74400893454f11b25",
+          "source": "annual",
+          "terms": [
+            "B_COMP"
+          ],
+          "residual": null
+        },
+        {
+          "name": "C_COMP",
+          "dtype": "float64",
+          "sha256": "fd340724f5d92776b5834fc226b684d096cfd0929931937c0bffd35935cc342b",
+          "source": "annual",
+          "terms": [
+            "C_COMP"
+          ],
+          "residual": null
+        },
+        {
+          "name": "EDGE_DIST_M",
+          "dtype": "float64",
+          "sha256": "119597071ff253601082ca4441d4a8b6a19db3dbabd4b12355010f26f9c7f53e",
+          "source": "annual",
+          "terms": [
+            "EDGE_DIST_M"
+          ],
+          "residual": null
+        },
+        {
+          "name": "edge_grid_id",
+          "dtype": "object",
+          "sha256": "0cec20b025a8c57954c860828f43db2999621e8f474e23ab61b4dd9da72b68ce",
+          "source": "annual",
+          "terms": [
+            "GRID_ID"
+          ],
+          "residual": null
+        },
+        {
+          "name": "GRID_UID",
+          "dtype": "int64",
+          "sha256": "e4335459f1c8925a7600b08c5d9cc56f2c7eb1c26722cdaac5028026ad71dec6",
+          "source": "annual",
+          "terms": [
+            "GRID_UID"
+          ],
+          "residual": null
+        },
+        {
+          "name": "country",
+          "dtype": "object",
+          "sha256": "fc18a7b7286f3263c50dab51e3b9e2001505d4963f0dd462b5b8d626c07e697e",
+          "source": "annual",
+          "terms": [
+            "GU_A3"
+          ],
+          "residual": null
+        },
+        {
+          "name": "MEHI",
+          "dtype": "float64",
+          "sha256": "b7129bbc023ecd726e80da7ff71d13b2a5d2d6b279108d90d48742c220e96192",
+          "source": "annual",
+          "terms": [
+            "MEHI"
+          ],
+          "residual": null
+        },
+        {
+          "name": "P_COMP",
+          "dtype": "float64",
+          "sha256": "66878c214e8b95e26ba423595817f804371663f7fd753d2f29d1d019f5b79181",
+          "source": "annual",
+          "terms": [
+            "P_COMP"
+          ],
+          "residual": null
+        },
+        {
+          "name": "S_COMP",
+          "dtype": "float64",
+          "sha256": "bd0ebf2d7ddc4da473f5bd5b1fd1360d8f5056caf9bd7d86cb362394f2634028",
+          "source": "annual",
+          "terms": [
+            "S_COMP"
+          ],
+          "residual": null
+        }
+      ]
+    },
+    {
+      "path": "data/scenario/edge_grid_2020.csv.gz",
+      "storage": "data/packed/edge_grid_2020.ndcol.zst",
+      "rows": 118661,
+      "columns": [
+        {
+          "name": "A_BUILT_M2",
+          "dtype": "float64",
+          "sha256": "6aac3f98f699798529a790843d6ebc903bac418870c6aa25ac7c9aa3adeb6ddf",
+          "source": "annual",
+          "terms": [
+            "area_built_up_m2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_CONTACT_M2",
+          "dtype": "float64",
+          "sha256": "81aedc965b35d4fc51998018e4a99c6cef2da9f3c0ddd11916391c0e4a1e4e8f",
+          "source": "payload",
+          "column": "A_CONTACT_M2"
+        },
+        {
+          "name": "A_M_M2",
+          "dtype": "float64",
+          "sha256": "e6e0f06cd07607e64405fcc8dd8115267aef9f4da2be5873b1b2b65038a2ad4b",
+          "source": "annual",
+          "terms": [
+            "A_M_M2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_OBS_EXT_M2",
+          "dtype": "float64",
+          "sha256": "e737d92cbfe270b3b4aef3496cd82c8d97846571437c7d9ed69fee8475127c79",
+          "source": "annual",
+          "terms": [
+            "A_OBS_EXT_M2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_OTHER_M2",
+          "dtype": "float64",
+          "sha256": "5f55842f05b5175ed63c926ef9c7387adbbbdb2e25e1c9dc6df2b1cf463b22bd",
+          "source": "annual",
+          "terms": [
+            "area_other_m2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_SOFT_M2",
+          "dtype": "float64",
+          "sha256": "de59acc3be1a88cf9a0dede8342237111550aec4cbc632058652433d64e682a0",
+          "source": "annual",
+          "terms": [
+            "area_tidal_flat_m2",
+            "area_non_mangrove_vegetation_m2",
+            "area_water_m2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "B_COMP",
+          "dtype": "float64",
+          "sha256": "949ea227858795bde5585856ec51a65d34a0e34d54a4a8b81d74537cca591e80",
+          "source": "annual",
+          "terms": [
+            "B_COMP"
+          ],
+          "residual": null
+        },
+        {
+          "name": "C_COMP",
+          "dtype": "float64",
+          "sha256": "8fe762ad787e1c016204b8fec3badcd3e5813137f9f72230dffc4fea0c8e3648",
+          "source": "annual",
+          "terms": [
+            "C_COMP"
+          ],
+          "residual": null
+        },
+        {
+          "name": "EDGE_DIST_M",
+          "dtype": "float64",
+          "sha256": "0c7c2163dd77b73201221471b562ce5b72f4278e5446e5831a23f65426072696",
+          "source": "annual",
+          "terms": [
+            "EDGE_DIST_M"
+          ],
+          "residual": null
+        },
+        {
+          "name": "edge_grid_id",
+          "dtype": "object",
+          "sha256": "101c372ceaa5c20aff4e75022af6d3ee5bb5291bbf3ae560042bd0a20cd9a95e",
+          "source": "annual",
+          "terms": [
+            "GRID_ID"
+          ],
+          "residual": null
+        },
+        {
+          "name": "GRID_UID",
+          "dtype": "int64",
+          "sha256": "7bc362027896fbb9ee456b0591fd40bc3edbb939dabfe0141ff99a2ebc212ef5",
+          "source": "annual",
+          "terms": [
+            "GRID_UID"
+          ],
+          "residual": null
+        },
+        {
+          "name": "country",
+          "dtype": "object",
+          "sha256": "73778d6371a43617ebb9bc76b4e098a4ed998950b59cfd29aa97bdc9803193eb",
+          "source": "annual",
+          "terms": [
+            "GU_A3"
+          ],
+          "residual": null
+        },
+        {
+          "name": "MEHI",
+          "dtype": "float64",
+          "sha256": "ddeafdb0eba5149ed3d2fc1e9f5a1f7ffbf4ea1e889c70a2491132ce5dc0561a",
+          "source": "annual",
+          "terms": [
+            "MEHI"
+          ],
+          "residual": null
+        },
+        {
+          "name": "P_COMP",
+          "dtype": "float64",
+          "sha256": "ca8d5ce92ec43c7681d60b73f55d70b3821c18291a31164d0d2348cca7d1d42e",
+          "source": "annual",
+          "terms": [
+            "P_COMP"
+          ],
+          "residual": null
+        },
+        {
+          "name": "S_COMP",
+          "dtype": "float64",
+          "sha256": "d9de3aa10084a353dce62a67c03aef31c0da6ba29b2717ce0a6a84d97ac4814d",
+          "source": "annual",
+          "terms": [
+            "S_COMP"
+          ],
+          "residual": null
+        }
+      ]
+    },
+    {
+      "path": "data/scenario/edge_grid_2023.csv.gz",
+      "storage": "data/packed/edge_grid_2023.ndcol.zst",
+      "rows": 117546,
+      "columns": [
+        {
+          "name": "A_BUILT_M2",
+          "dtype": "float64",
+          "sha256": "82a78f7ea29a51418f4e9a4939d14451c5475c019a036058973f3b294d55da1c",
+          "source": "annual",
+          "terms": [
+            "area_built_up_m2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_CONTACT_M2",
+          "dtype": "float64",
+          "sha256": "5f2e6d01f6981cd03a73799d7750891df1faa2c3d40cc2975e93cf14b7320960",
+          "source": "payload",
+          "column": "A_CONTACT_M2"
+        },
+        {
+          "name": "A_M_M2",
+          "dtype": "float64",
+          "sha256": "df8f072a334316decb5d7531bf28161edf6d6c2004d88f9e0c2993869c304fff",
+          "source": "annual",
+          "terms": [
+            "A_M_M2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_OBS_EXT_M2",
+          "dtype": "float64",
+          "sha256": "3a162d9a14991a40cde96ace5ea3a178cb22dfa297d3b7ad7aaec27fad9f2ea4",
+          "source": "annual",
+          "terms": [
+            "A_OBS_EXT_M2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_OTHER_M2",
+          "dtype": "float64",
+          "sha256": "aa2b24774d43e3c14b1dce9042d5af0b2ae78a259aa76e282408c9210df1b927",
+          "source": "annual",
+          "terms": [
+            "area_other_m2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_SOFT_M2",
+          "dtype": "float64",
+          "sha256": "ac9ab4601dae80991a01189ea70ca6b40c5d7906c2111ebe183d913941610823",
+          "source": "annual",
+          "terms": [
+            "area_tidal_flat_m2",
+            "area_non_mangrove_vegetation_m2",
+            "area_water_m2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "B_COMP",
+          "dtype": "float64",
+          "sha256": "2535ae6c4982646ee12f01507870d7065887f65d3861ef02e2e434371860703c",
+          "source": "annual",
+          "terms": [
+            "B_COMP"
+          ],
+          "residual": null
+        },
+        {
+          "name": "C_COMP",
+          "dtype": "float64",
+          "sha256": "e7d83dea331890bcf44c35022b4a096491037e1554e742ac5fbf300962081152",
+          "source": "annual",
+          "terms": [
+            "C_COMP"
+          ],
+          "residual": null
+        },
+        {
+          "name": "EDGE_DIST_M",
+          "dtype": "float64",
+          "sha256": "64857d55637056f52ec7887f417666760c4dc2131128498475adde9a3780a238",
+          "source": "annual",
+          "terms": [
+            "EDGE_DIST_M"
+          ],
+          "residual": null
+        },
+        {
+          "name": "edge_grid_id",
+          "dtype": "object",
+          "sha256": "b4050b25acce139d2babd97e912404cd702a8dde10ded3699d076320ae944b80",
+          "source": "annual",
+          "terms": [
+            "GRID_ID"
+          ],
+          "residual": null
+        },
+        {
+          "name": "GRID_UID",
+          "dtype": "int64",
+          "sha256": "b2ee08a60c07d562eaf43664f7a0acd910d68cdc29b7f2dd3f8ee17d8ee13f23",
+          "source": "annual",
+          "terms": [
+            "GRID_UID"
+          ],
+          "residual": null
+        },
+        {
+          "name": "country",
+          "dtype": "object",
+          "sha256": "7e912303702bdb8b284fcabedfb7e6e8c7c2be09b413840f62dcc73104f44b78",
+          "source": "annual",
+          "terms": [
+            "GU_A3"
+          ],
+          "residual": null
+        },
+        {
+          "name": "MEHI",
+          "dtype": "float64",
+          "sha256": "8a19fc4e793d75175624478ab4fd5b242735161d0d8f65948a2c8923fcc053aa",
+          "source": "annual",
+          "terms": [
+            "MEHI"
+          ],
+          "residual": null
+        },
+        {
+          "name": "P_COMP",
+          "dtype": "float64",
+          "sha256": "2b36787d9082edf69065650e35194ef3c17676f3f1c9f9bc5ade9d43b6c739af",
+          "source": "annual",
+          "terms": [
+            "P_COMP"
+          ],
+          "residual": null
+        },
+        {
+          "name": "S_COMP",
+          "dtype": "float64",
+          "sha256": "35afeff9e4a2813e14ee7610e35b40b45affdff66fdba6976209384995cc421f",
+          "source": "annual",
+          "terms": [
+            "S_COMP"
+          ],
+          "residual": null
+        }
+      ]
+    },
+    {
+      "path": "data/figure_source/Fig2_edge_state_maps_2000_2023.csv.gz",
+      "storage": "data/packed/Fig2_edge_state_maps_2000_2023.ndcol.zst",
+      "rows": 233008,
+      "columns": [
+        {
+          "name": "lon",
+          "dtype": "float64",
+          "sha256": "c6ad69159923bfb4d46fed8f5130490f617fb59711c36b03d61174df7d3d6e78",
+          "source": "payload",
+          "column": "lon"
+        },
+        {
+          "name": "lat",
+          "dtype": "float64",
+          "sha256": "260d1d12ef71a2788428d65a718cc82a2ae13cd00acaac8d1d3248d331cf9565",
+          "source": "payload",
+          "column": "lat"
+        },
+        {
+          "name": "year",
+          "dtype": "int64",
+          "sha256": "74b86f08b1d74d9eded2779a86f71a8195fb49c28947a9229dbf351b05d8a421",
+          "source": "annual",
+          "terms": [
+            "YEAR"
+          ],
+          "residual": null
+        },
+        {
+          "name": "location_code",
+          "dtype": "object",
+          "sha256": "d219baa957a1351b96775d50036fd37dbfe33668dcc78454afead187dab88350",
+          "source": "annual",
+          "terms": [
+            "GU_A3"
+          ],
+          "residual": null
+        },
+        {
+          "name": "GRID_ID",
+          "dtype": "object",
+          "sha256": "3d8f3aa3990221ae1a1fedd345ad95e4ad2a6b3d885cf6dd8a34cc41b37cbab8",
+          "source": "annual",
+          "terms": [
+            "GRID_ID"
+          ],
+          "residual": null
+        },
+        {
+          "name": "GRID_UID",
+          "dtype": "int64",
+          "sha256": "da6bb3ce2a6ed87e0047fe0421c35dc7e7104030992e6c88417d892c44f7d4b3",
+          "source": "annual",
+          "terms": [
+            "GRID_UID"
+          ],
+          "residual": null
+        },
+        {
+          "name": "MEHI",
+          "dtype": "float64",
+          "sha256": "c9e03f1c218c8ad1d37f20f558b47de6e646adf3b2c46021a1a7f2738e1d2797",
+          "source": "annual",
+          "terms": [
+            "MEHI"
+          ],
+          "residual": "MEHI__bit_residual"
+        },
+        {
+          "name": "MEHI_class",
+          "dtype": "object",
+          "sha256": "0598a6503368e0ad8200756588fa21813fe7d048ecce59a1f5d9a5080606b0ff",
+          "source": "payload",
+          "column": "MEHI_class"
+        },
+        {
+          "name": "area_weight",
+          "dtype": "float64",
+          "sha256": "f29f9ac1fb08c5cdd8af323f6273ffeb830a99db7cf4327a2a1b4aa2fc33a34c",
+          "source": "annual",
+          "terms": [
+            "A_M_M2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "hard_edge_share_percent_0p5deg_bin",
+          "dtype": "float64",
+          "sha256": "778de8771154481c6840ce858331cc7d1cd0080f2e258b8f58b6128fd24bd69f",
+          "source": "payload",
+          "column": "hard_edge_share_percent_0p5deg_bin"
+        }
+      ]
+    },
+    {
+      "path": "data/figure_source/Fig6_maps_SSP2_SSP5_2100.csv.gz",
+      "storage": "data/packed/Fig6_maps_SSP2_SSP5_2100.ndcol.zst",
+      "rows": 117546,
+      "columns": [
+        {
+          "name": "country",
+          "dtype": "object",
+          "sha256": "a30204a8b2b0fe02109fd01ee4f3ffe7b6b3e11931079c94ef9d6d61b7a4f634",
+          "source": "annual",
+          "terms": [
+            "GU_A3"
+          ],
+          "residual": null
+        },
+        {
+          "name": "GRID_UID",
+          "dtype": "int64",
+          "sha256": "18f422c925369d257c44e3de4319e4526e6dc6725f2352c896c31c96423a1687",
+          "source": "annual",
+          "terms": [
+            "GRID_UID"
+          ],
+          "residual": null
+        },
+        {
+          "name": "GRID_ID",
+          "dtype": "object",
+          "sha256": "3c1a5dc51670ebfed04260f7e60e7f6663f891f338e568cfddf5a501b6a42fea",
+          "source": "annual",
+          "terms": [
+            "GRID_ID"
+          ],
+          "residual": null
+        },
+        {
+          "name": "lon",
+          "dtype": "float64",
+          "sha256": "01da8e94e12412648a665428e54a726892d302c6c90dbd3555d13f4d3186b6e6",
+          "source": "formula",
+          "recipe": {
+            "op": "state_coordinate",
+            "axis": "lon"
+          },
+          "residual": "lon__bit_residual"
+        },
+        {
+          "name": "lat",
+          "dtype": "float64",
+          "sha256": "297e55f5d84b22cc88267f07792c15fb7992f9b5b822f551113dc3d194c288af",
+          "source": "formula",
+          "recipe": {
+            "op": "state_coordinate",
+            "axis": "lat"
+          },
+          "residual": "lat__bit_residual"
+        },
+        {
+          "name": "year",
+          "dtype": "int64",
+          "sha256": "eba7cfccf777b5a0bb39a6596ecd53218afb6223904e95dfe4ab280846cda7ca",
+          "source": "constant",
+          "value": 2100
+        },
+        {
+          "name": "Delta_sMEHI_SSP2",
+          "dtype": "float64",
+          "sha256": "16988d4402d05a550da47db8f31bc11db322536dda4982cc2735f5c607163f43",
+          "source": "payload",
+          "column": "Delta_sMEHI_SSP2"
+        },
+        {
+          "name": "sMEHI_SSP2",
+          "dtype": "float64",
+          "sha256": "d5231a32a80d5a273382a377e1b2616b6e66c040df0329d36654173515597742",
+          "source": "formula",
+          "recipe": {
+            "op": "annual_plus_column",
+            "annual": "MEHI",
+            "column": "Delta_sMEHI_SSP2"
+          },
+          "residual": "sMEHI_SSP2__bit_residual"
+        },
+        {
+          "name": "hard_edge_future_flag_SSP2",
+          "dtype": "int64",
+          "sha256": "2bbd385b2e729f851a593915073b401244a9c9be3ab74f5a96090a7b9dd0da61",
+          "source": "payload",
+          "column": "hard_edge_future_flag_SSP2"
+        },
+        {
+          "name": "Delta_sMEHI_SSP5",
+          "dtype": "float64",
+          "sha256": "1f6fcf8c5405f14c5e6e3c46f586c514571c77529e218843c5d31bab012cf436",
+          "source": "payload",
+          "column": "Delta_sMEHI_SSP5"
+        },
+        {
+          "name": "sMEHI_SSP5",
+          "dtype": "float64",
+          "sha256": "6c708b3e27a5d58ea8a91749d36bd8f4e84f0f41db88f68c4e01bae8cd6ac698",
+          "source": "formula",
+          "recipe": {
+            "op": "annual_plus_column",
+            "annual": "MEHI",
+            "column": "Delta_sMEHI_SSP5"
+          },
+          "residual": "sMEHI_SSP5__bit_residual"
+        },
+        {
+          "name": "hard_edge_future_flag_SSP5",
+          "dtype": "int64",
+          "sha256": "694d07871b3cc5ce3d565a27260b048fb20ece549f30029745e5f22e32dacb4a",
+          "source": "payload",
+          "column": "hard_edge_future_flag_SSP5"
+        }
+      ]
+    },
+    {
+      "path": "data/figure_source/Fig6_2023_external_area_weights.csv.gz",
+      "storage": "data/packed/Fig6_2023_external_area_weights.ndcol.zst",
+      "rows": 117546,
+      "columns": [
+        {
+          "name": "country",
+          "dtype": "object",
+          "sha256": "7e912303702bdb8b284fcabedfb7e6e8c7c2be09b413840f62dcc73104f44b78",
+          "source": "annual",
+          "terms": [
+            "GU_A3"
+          ],
+          "residual": null
+        },
+        {
+          "name": "GRID_ID",
+          "dtype": "object",
+          "sha256": "b4050b25acce139d2babd97e912404cd702a8dde10ded3699d076320ae944b80",
+          "source": "annual",
+          "terms": [
+            "GRID_ID"
+          ],
+          "residual": null
+        },
+        {
+          "name": "GRID_UID",
+          "dtype": "int64",
+          "sha256": "b2ee08a60c07d562eaf43664f7a0acd910d68cdc29b7f2dd3f8ee17d8ee13f23",
+          "source": "annual",
+          "terms": [
+            "GRID_UID"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_OBS_EXT_M2",
+          "dtype": "float64",
+          "sha256": "3bfdec90846b1a0efba0eb3b7dd7ca3eaca91647e43483d3e5ba2449e48a7701",
+          "source": "annual",
+          "terms": [
+            "A_OBS_EXT_M2"
+          ],
+          "residual": "A_OBS_EXT_M2__bit_residual"
+        }
+      ]
+    },
+    {
+      "path": "data/revision/canonical_matched_support.csv.gz",
+      "storage": "data/packed/canonical_matched_support.ndcol.zst",
+      "rows": 79509,
+      "columns": [
+        {
+          "name": "GU_A3",
+          "dtype": "object",
+          "sha256": "d8aeafb4cd4f9dd6a7a0d4836548e90cb564ebfe2a6c7008f79613bd8d771bb7",
+          "source": "annual",
+          "terms": [
+            "GU_A3"
+          ],
+          "residual": null
+        },
+        {
+          "name": "GRID_ID",
+          "dtype": "object",
+          "sha256": "63dd754b87c5006fce0ef3a56e9308da6eccfb0074af9ed6a70a14ff551524ff",
+          "source": "annual",
+          "terms": [
+            "GRID_ID"
+          ],
+          "residual": null
+        },
+        {
+          "name": "pMEHI",
+          "dtype": "float64",
+          "sha256": "9cd3abbbc5d834f653b7619a7935883e8bb8676a1780f109b582523ec3652fe9",
+          "source": "formula",
+          "recipe": {
+            "op": "half_endpoint_change"
+          },
+          "residual": null
+        },
+        {
+          "name": "weight_m2",
+          "dtype": "float64",
+          "sha256": "cf02f284cc4881cfab94eedd47c34a1fddad816f1305bc9fd2d707fc90c3f8b5",
+          "source": "formula",
+          "recipe": {
+            "op": "minimum_endpoint_area"
+          },
+          "residual": null
+        },
+        {
+          "name": "A_M_2000_m2",
+          "dtype": "float64",
+          "sha256": "a33f323bc2135d9b089442d1477d4e7ec906f17fbb2e95eebeacfe739c8c9383",
+          "source": "annual",
+          "terms": [
+            "A_M_M2"
+          ],
+          "residual": null
+        },
+        {
+          "name": "A_M_2023_m2",
+          "dtype": "float64",
+          "sha256": "55687991d09bb64e0e365fd74c659cb2f1513fab4f30bc3b2757bed9974a4d06",
+          "source": "formula",
+          "recipe": {
+            "op": "endpoint_area"
+          },
+          "residual": null
+        }
+      ]
+    }
+  ],
+  "compressed_files": [
+    {
+      "path": "data/cartography/ne_50m_land.geojson",
+      "storage": "data/packed/ne_50m_land.geojson.zst",
+      "sha256": "e874b27a51d146452be360cafb3cc50c86001074a67d534113e6534682f9826b"
+    },
+    {
+      "path": "code/landcover_classifier/models/0_new_model_parameters.pth",
+      "storage": "data/packed/0_new_model_parameters.pth.zst",
+      "sha256": "ca478dfdf834578b47c463cea255da6d6cfbefcbfa96c24b75bf53a7945f2a0e"
+    },
+    {
+      "path": "code/landcover_classifier/models/1_new_model_parameters.pth",
+      "storage": "data/packed/1_new_model_parameters.pth.zst",
+      "sha256": "ecbae2dc54bcb17fb825a1996acbd0ee41f12a1e60eac2d9cec44c4d936021d9"
+    },
+    {
+      "path": "code/landcover_classifier/models/2_new_model_parameters.pth",
+      "storage": "data/packed/2_new_model_parameters.pth.zst",
+      "sha256": "6a08404dc01ca732d0f22287f4ef49d06fa8476d288e9a722150aeeb4d7d2ce9"
+    },
+    {
+      "path": "code/landcover_classifier/models/3_new_model_parameters.pth",
+      "storage": "data/packed/3_new_model_parameters.pth.zst",
+      "sha256": "a5298279111134d3d5b8b806749d49712da48cf687005645f5e1e07315ac92b2"
+    },
+    {
+      "path": "code/landcover_classifier/models/4_new_model_parameters.pth",
+      "storage": "data/packed/4_new_model_parameters.pth.zst",
+      "sha256": "fbca464b5aa8b500769cf5a6758a1ab3fc30bccbc4315d98706edf5b2183e2b3"
+    },
+    {
+      "path": "code/landcover_classifier/models/5_model_parameters.pth",
+      "storage": "data/packed/5_model_parameters.pth.zst",
+      "sha256": "90c1d329a7afe72bbf66962c7c0d9d31d56db1e63ea47714c7703b18e6b9d16f"
+    },
+    {
+      "path": "code/landcover_classifier/models/6_model_parameters.pth",
+      "storage": "data/packed/6_model_parameters.pth.zst",
+      "sha256": "393565848a9abf6c70c06175054d6c8cea752ada78e861bc7ec3dd4a5b4143c5"
+    }
+  ],
+  "aliases": [
+    {
+      "path": "data/scenario/exp2_gao_variable_catalog.csv",
+      "source": "data/scenario/exp2_gao_scenario_year_lookup.csv",
+      "sha256": "64a0aeaa8551e1384f811d49b97bc45de82175d487cd66fb3204dbe5d1ab0c52"
+    },
+    {
+      "path": "data/supporting/landcover_accuracy_by_year.csv",
+      "source": "data/validation_current/landcover_accuracy_by_year.csv",
+      "sha256": "12fb1d55fabef6376a421032ce798ed8cd00722e6cda976a6ec1ba7d34722a05"
+    },
+    {
+      "path": "data/supporting/landcover_class_accuracy.csv",
+      "source": "data/validation_current/landcover_class_accuracy.csv",
+      "sha256": "193ed9054a1f92f8b8ee32d8742efd14cf4572e489067d276074f3931336dbf2"
+    },
+    {
+      "path": "data/supporting/landcover_confusion_matrix.csv",
+      "source": "data/validation_current/landcover_confusion_matrix.csv",
+      "sha256": "384171da1b8c1658e103cd1e2bf15ba57d485c8401320f3941a6eb9f83e84a28"
+    },
+    {
+      "path": "data/supporting/landcover_confusion_matrix_by_year.csv",
+      "source": "data/validation_current/landcover_confusion_matrix_by_year.csv",
+      "sha256": "38986e8b8fff741d00c395a69dcdad57925a7f9678ade369f2bdaf15034d6b21"
+    },
+    {
+      "path": "data/supporting/landcover_sample_counts_by_year_class.csv",
+      "source": "data/validation_current/landcover_sample_counts_by_year_class.csv",
+      "sha256": "8d982160f028128533a40d6b5d46412f37acf0758b693400cd84cbbdaa2a53fd"
+    },
+    {
+      "path": "data/supporting/landcover_sample_design.csv",
+      "source": "data/validation_current/landcover_sample_design.csv",
+      "sha256": "434b65d021f53c61c9e2f0f8e5a5be6a91c9c7e5ae1588712596b716debf5146"
+    },
+    {
+      "path": "data/supporting/landcover_validation_coverage.csv",
+      "source": "data/validation_current/landcover_validation_coverage.csv",
+      "sha256": "118c1ab6170a99357291ff7a4eb96dd87e27dbdfef28cf9669a4197a6de770be"
+    }
+  ],
+  "route_table": {
+    "path": "data/supporting/Fig5_grid_route_classification.csv.gz",
+    "storage": "data/packed/route_relative_payload.ndcol.zst",
+    "recipe": "metadata/route_relative_recipe.json"
+  }
+}
